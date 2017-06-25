@@ -1,0 +1,30 @@
+"Test suite name","Battle scenarios"
+"Created on","2015-05-19 20:03:31 UTC"
+"Updated on","2015-06-04 12:31:51 UTC"
+
+
+"Id","Test case number","Title","Description","Test steps","Expected result","Created at","Updated at"
+"767800","TC291","Trying multiple attacks","What happens if a user tries to make multiple attacks on two rival cities?","1. From Map View, click a rival City
+2. Click ""Attack""
+3. Find another rival City
+4. Click ""Attack""","Receive a message stating that only one attack can be made at a time.","2015-06-03 17:49:58 UTC","2015-06-03 17:49:58 UTC"
+"767801","TC292","Attacking Ally City","What happens when a user tries to attack an ally City?","1. From Map View, find an Ally City (blue text) and click on it.","The button that usually says ""Attack"" should be replaced with ""Reinforce"".","2015-06-03 17:52:40 UTC","2015-06-03 17:52:40 UTC"
+"768796","TC301","Attacking one another at the same time","What happens when Player A attacks Player B, whilst at the same time Player B is attacking Player A?","1. As Player A, find the Player B's City on Map view.
+2. Click ""Attack""
+3. As Player B, find the Player A's City on Map view.
+4. Click ""Attack""","The attacks should be carried out as normal.","2015-06-04 12:11:18 UTC","2015-06-04 12:11:18 UTC"
+"768917","TC302","Attack own City?","What happens when a user tries to attack their own City?","1. From within Map View, locate your City and click on it.","The user should not have option to attack or reinforce, but instead have the option to ""Enter City""","2015-06-04 12:19:32 UTC","2015-06-04 12:19:32 UTC"
+"768919","TC303","Two raids on one Village?","Can Player A and Player B both raid the same Village at the same time?","1. As Player A, find a Village and note the coordinates.
+2. Click ""Raid"" 
+3. As Player B, search for the coordinates of the Village
+4. Click ""Raid""","The raids should be carried out as normal.","2015-06-04 12:21:35 UTC","2015-06-04 12:22:03 UTC"
+"768920","TC304","Two attacks on one City?","Can Player A and Player B both attack Player C's City at the same time?","1. As Player A, find a City and note the coordinates. 
+2. Click ""Attack"" 
+3. As Player B, search for the coordinates of Player C's City
+4. Click ""Attack""","The attacks should carry out as normal.","2015-06-04 12:23:06 UTC","2015-06-04 12:23:06 UTC"
+"768926","TC305","Trying to attack with no Rally Point","Can an Attack/Raid be performed without a Rally Point?","1. Ensure there is no Rally Point within your City.
+2. From within Map View, locate a Village.
+3. Click ""Raid""","The user should receive a message to say that a Rally Point is required to form a march.","2015-06-04 12:29:03 UTC","2015-06-04 12:31:16 UTC"
+"768928","TC306","Trying to attack with no Troops","Can an Attack/Raid be performed without any Troops?","1. Ensure there are no Troops within your City.
+2. From within Map View, locate a Village. 
+3. Click ""Raid""","A message telling the user that they must train some troops should appear.","2015-06-04 12:31:50 UTC","2015-06-04 12:31:50 UTC"

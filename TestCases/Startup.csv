@@ -1,0 +1,33 @@
+"Test suite name","Start up"
+"Created on","2015-05-19 12:37:01 UTC"
+"Updated on","2015-08-19 06:53:33 UTC"
+
+
+"Id","Test case number","Title","Description","Test steps","Expected result","Created at","Updated at"
+"748490","TC06","Splash screen","Does the splash screen appear correctly. Are there any problems?","1. Start the game for the first time by launching from iOS home screen.
+2. Look for any graphical errors.
+3. Look for any spelling/grammar issues.","Screen will load up with no problems and the game will start.","2015-05-19 13:07:49 UTC","2015-05-19 13:07:49 UTC"
+"755719","TC07","Log in - without internet access","Is the user able to access the game without any internet access?","1. Make sure there is no wi-fi connection
+2. Make sure there is no mobile data connection
+3. Open up Kingdoms
+4. Wait for the splash screen to load.","The game should start, but there should be a notice to the user to say that there is no internet.","2015-05-25 06:09:36 UTC","2015-05-25 06:09:36 UTC"
+"755720","TC08","Log in - with internet access","Can the user log into Kingdoms with an internet connection.","Either;
+1. Make sure wi-fi is on
+Or; 
+1. Make sure mobile data is on
+2. Open up Kingdoms 
+3. Wait for the splash screen to load.","The game should start and the user is either automatically signed into their Game Centre account.","2015-05-25 06:13:56 UTC","2015-05-25 06:13:56 UTC"
+"755721","TC09","Launch without Game Center login","Can Kingdoms be launched when the user has signed out of the Game Center?","1. On iPhone or iPad, go to ""Settings""
+2. ""Game Center""
+3. Click on the apple ID
+4. Sign Out.
+5. Launch Kingdoms","User will be prompted to enter their Game Center credentials.","2015-05-25 06:18:33 UTC","2015-05-25 06:21:20 UTC"
+"755748","TC10","Launch Kingdoms whilst logged into Game Center","Can Kingdoms be launched when the user has signed back in to the Game Center?","1. On iPhone or iPad, go to ""Settings"" 
+2. ""Game Center"" 
+3. Enter the correct Apple ID credentials
+4. Sign In. 
+5. Launch Kingdoms","The game should launch and the user is automatically signed into the Game Center.","2015-05-25 06:45:15 UTC","2015-05-25 06:45:15 UTC"
+"755749","TC11","Play button","Does the play button start the game?","1. Launch Kingdoms for the first time.
+2. Wait for the splash screen to finish loading
+3. Press the ""Play"" button","The main game should launch, starting with a tutorial.","2015-05-25 06:49:10 UTC","2015-05-25 06:49:10 UTC"
+"857458","TC389","Splash screen - v1.0.9 update","The splash screen artwork has been updated for v1.0.9.","Start the game up","The splash screen should appear with no errors.","2015-08-19 06:53:33 UTC","2015-08-19 06:53:33 UTC"

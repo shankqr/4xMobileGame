@@ -1,0 +1,123 @@
+"Test suite name","Resources Bar"
+"Created on","2015-05-19 12:43:50 UTC"
+"Updated on","2015-05-28 07:17:09 UTC"
+
+
+"Id","Test case number","Title","Description","Test steps","Expected result","Created at","Updated at"
+"760431","TC75","City info","Can the user see the info page when clicking on the resources bar? Can they see the cities coordinates.","1. From the main city view, click anywhere on the Resources bar.","The city info should appear, including the cities coordinates.","2015-05-27 20:37:41 UTC","2015-05-27 20:37:41 UTC"
+"760469","TC76","Food - Info","Does the food info on the resources bar in city view match what is in the food info page?","1. From the main city view, take note of the Food figure on the resources bar.
+2. Click on the Resources bar","The number on the resources bar should the same figure that appears in the City resources page for Food, rounded to the nearest 1,000.","2015-05-27 20:45:11 UTC","2015-05-27 20:45:11 UTC"
+"762027","TC77","Food - Get more (1,000)","Can the user purchase more food from the resources bar?","1. From the main city view, take note of the Food figure on the resources bar. 
+2. Click on the Resources bar
+3. Click on the Get More button
+4. Select to buy 1,000 food for 100 diamonds.","This Food item will become available for use and the user's total number of diamonds should decrease by 100.","2015-05-28 03:53:07 UTC","2015-05-28 03:56:17 UTC"
+"762028","TC78","Food - Use Food item (1,000)","Can the user use the Food item they have purchased?","1. From the main city view, take note of the Food figure on the resources bar. 
+2. Click on the Resources bar 
+3. Click on the Get More button 
+4. Select to buy 1,000 food for 100 diamonds.
+5. Click the ""Use"" button under the 1,000 Food Item","The availability should decrease to zero. The Food figure on the resource bar should increase by 1,000.","2015-05-28 03:55:38 UTC","2015-05-28 03:56:33 UTC"
+"762030","TC79","Food - Get More (3,000)","Can the user purchase more food from the resources bar?","1. From the main city view, take note of the Food figure on the resources bar. 
+2. Click on the Resources bar 
+3. Click on the Get More button 
+4. Select to buy 3,000 food for 350 diamonds.","This Food item will become available for use and the user's total number of diamonds should decrease by 350.","2015-05-28 03:58:00 UTC","2015-05-28 03:58:00 UTC"
+"762031","TC80","Food - Use Food item (3,000)","Can the user use the Food item they have purchased?","1. From the main city view, take note of the Food figure on the resources bar. 
+2. Click on the Resources bar 
+3. Click on the Get More button 
+4. Select to buy 3,000 food for 300 diamonds. 
+5. Click the ""Use"" button under the 3,000 Food Item","The availability should decrease to zero. The Food figure on the resource bar should increase by 3,000.","2015-05-28 03:58:48 UTC","2015-05-28 03:58:48 UTC"
+"762039","TC85","Wood - Info","Does the Wood info on the resources bar in city view match what is in the Wood info page?","1. From the main city view, take note of the Wood figure on the resources bar. 
+2. Click on the Resources bar","The number on the resources bar should the same figure that appears in the City resources page for Wood, rounded to the nearest 1,000.","2015-05-28 04:07:05 UTC","2015-05-28 04:08:09 UTC"
+"762034","TC81","Wood - Get More (1,000)","Can the user purchase more Wood from the resources bar?","1. From the main city view, take note of the Wood figure on the resources bar. 
+2. Click on the Resources bar 
+3. Click on the Get More button 
+4. Select to buy 1,000 Wood for 100 diamonds.","This Wood item will become available for use and the user's total number of diamonds should decrease by 100.","2015-05-28 04:00:24 UTC","2015-05-28 04:02:31 UTC"
+"762036","TC82","Wood - Use Wood item (1,000)","Can the user use the Wood item they have purchased?","1. From the main city view, take note of the Wood figure on the resources bar. 
+2. Click on the Resources bar 
+3. Click on the Get More button 
+4. Select to buy 1,000 Wood for 300 diamonds. 
+5. Click the ""Use"" button under the 1,000 Wood Item","The availability should decrease to zero. The Wood figure on the resource bar should increase by 1,000.","2015-05-28 04:02:13 UTC","2015-05-28 04:02:13 UTC"
+"762037","TC83","Wood - Get More (3,000)","Can the user purchase more Wood from the resources bar?","1. From the main city view, take note of the Wood figure on the resources bar. 
+2. Click on the Resources bar 
+3. Click on the Get More button 
+4. Select to buy 3,000 Wood for 300 diamonds.","This Wood item will become available for use and the user's total number of diamonds should decrease by 300.","2015-05-28 04:03:57 UTC","2015-05-28 04:03:57 UTC"
+"762038","TC84","Wood - Use Wood item (3,000)","Can the user use the Wood item they have purchased?","1. From the main city view, take note of the Wood figure on the resources bar. 
+2. Click on the Resources bar 
+3. Click on the Get More button 
+4. Select to buy 3,000 Wood for 300 diamonds. 
+5. Click the ""Use"" button under the 3,000 Wood Item","The availability should decrease to zero. The Wood figure on the resource bar should increase by 3,000.","2015-05-28 04:05:08 UTC","2015-05-28 04:05:08 UTC"
+"762040","TC86","Stone - Info","Does the Stone info on the resources bar in city view match what is in the Stone info page?","1. From the main city view, take note of the Stone figure on the resources bar. 
+2. Click on the Resources bar","The number on the resources bar should the same figure that appears in the City resources page for Stone, rounded to the nearest 1,000.","2015-05-28 04:08:52 UTC","2015-05-28 04:08:52 UTC"
+"762043","TC87","Stone - Get More (1,000)","Can the user purchase the Stone item they have purchased?","1. From the main city view, take note of the Stone figure on the resources bar. 
+2. Click on the Resources bar 
+3. Click on the Get More button 
+4. Select to buy 1,000 Stone for 100 diamonds.","This Stone item will become available for use and the user's total number of diamonds should decrease by 100.","2015-05-28 04:11:18 UTC","2015-05-28 04:15:51 UTC"
+"762044","TC88","Stone - Use Stone item (1,000)","Can the user use the Stone item they have purchased?","1. From the main city view, take note of the Stone figure on the resources bar. 
+2. Click on the Resources bar 
+3. Click on the Get More button 
+4. Select to buy 1,000 Stone for 100 diamonds. 
+5. Click the ""Use"" button under the 1,000 Stone Item","The availability should decrease to zero. The Stone figure on the resource bar should increase by 1,000.","2015-05-28 04:12:27 UTC","2015-05-28 04:16:33 UTC"
+"762045","TC89","Stone - Get More (3,000)","Can the user purchase the Stone item they have purchased?","1. From the main city view, take note of the Stone figure on the resources bar. 
+2. Click on the Resources bar 
+3. Click on the Get More button 
+4. Select to buy 3,000 Stone for 250 diamonds.","This Stone item will become available for use and the user's total number of diamonds should decrease by 250.","2015-05-28 04:15:18 UTC","2015-05-28 04:15:18 UTC"
+"762064","TC90","Stone - Use Stone item (3,000)","Can the user use the stone item they have purchased?","1. From the main city view, take note of the Stone figure on the resources bar. 
+2. Click on the Resources bar 
+3. Click on the Get More button 
+4. Select to buy 3,000 Stone for 250 diamonds. 
+5. Click the ""Use"" button under the 3,000 Stone Item","The availability should decrease to zero. The Stone figure on the resource bar should increase by 3,000.","2015-05-28 04:21:57 UTC","2015-05-28 04:21:57 UTC"
+"762065","TC91","Ore - Info","Does the Ore info on the resources bar in city view match what is in the Ore info page?","1. From the main city view, take note of the Ore figure on the resources bar. 
+2. Click on the Resources bar","The number on the resources bar should the same figure that appears in the City resources page for Ore, rounded to the nearest 1,000.","2015-05-28 04:24:27 UTC","2015-05-28 06:54:46 UTC"
+"762101","TC92","Ore - Get More (1,000)","Can the user purchase the Ore item they have purchased?","1. From the main city view, take note of the Ore figure on the resources bar. 
+2. Click on the Resources bar 
+3. Click on the Get More button 
+4. Select to buy 1,000 Ore for 100 diamonds.","This Ore item will become available for use and the user's total number of diamonds should decrease by 100.","2015-05-28 06:50:58 UTC","2015-05-28 06:50:58 UTC"
+"762122","TC93","Ore - Use Ore Item (1,000)","Can the user use the Ore item they have purchased?","1. From the main city view, take note of the Ore figure on the resources bar. 
+2. Click on the Resources bar 
+3. Click on the Get More button 
+4. Select to buy 1,000 Ore for 100 diamonds. 
+5. Click the ""Use"" button under the 1,000 Ore Item","The availability should decrease to zero. The Ore figure on the resource bar should increase by 1,000","2015-05-28 06:51:48 UTC","2015-05-28 06:58:27 UTC"
+"762123","TC94","Ore - Get More (3,000)","Can the user purchase the Ore item they have purchased?","1. From the main city view, take note of the Ore figure on the resources bar. 
+2. Click on the Resources bar 
+3. Click on the Get More button 
+4. Select to buy 3,000 Ore for 280 diamonds.","This Ore item will become available for use and the user's total number of diamonds should decrease by 280","2015-05-28 06:52:55 UTC","2015-05-28 06:52:55 UTC"
+"762124","TC95","Ore - Use Ore item (3,000)","Can the user use the Ore item they have purchased?","1. From the main city view, take note of the Ore figure on the resources bar. 
+2. Click on the Resources bar 
+3. Click on the Get More button 
+4. Select to buy 3,000 Stone for 280 diamonds. 
+5. Click the ""Use"" button under the 3,000 Ore Item","The availability should decrease to zero. The Ore figure on the resource bar should increase by 3,000.","2015-05-28 06:53:47 UTC","2015-05-28 06:53:47 UTC"
+"762126","TC96","Gold - Info","Does the Gold info on the resources bar in city view match what is in the Gold info page?","1. From the main city view, take note of the Gold figure on the resources bar. 
+2. Click on the Resources bar","The number on the resources bar should the same figure that appears in the City resources page for Gold, rounded to the nearest 1,000.","2015-05-28 06:56:09 UTC","2015-05-28 06:56:09 UTC"
+"762127","TC97","Gold - Get More (1,000)","Can the user purchase the Gold item they have purchased?","1. From the main city view, take note of the Gold figure on the resources bar. 
+2. Click on the Resources bar 
+3. Click on the Get More button 
+4. Select to buy 1,000 Gold for 150 diamonds.","This Gold item will become available for use and the user's total number of diamonds should decrease by 150.","2015-05-28 06:57:16 UTC","2015-05-28 06:57:16 UTC"
+"762128","TC98","Gold - Use Gold Item (1,000)","Can the user use the Gold item they have purchased?","1. From the main city view, take note of the Gold figure on the resources bar. 
+2. Click on the Resources bar 
+3. Click on the Get More button 
+4. Select to buy 1,000 Gold for 150 diamonds. 
+5. Click the ""Use"" button under the 1,000 Gold Item","The availability should decrease to zero. The Gold figure on the resource bar should increase by 1,000","2015-05-28 06:58:37 UTC","2015-05-28 06:58:37 UTC"
+"762148","TC99","Gold - Get More (3,000)","Can the user purchase the Gold item they have purchased?","1. From the main city view, take note of the Gold figure on the resources bar. 
+2. Click on the Resources bar 
+3. Click on the Get More button 
+4. Select to buy 3,000 Gold for 400 diamonds.","This Gold item will become available for use and the user's total number of diamonds should decrease by 400.","2015-05-28 07:02:45 UTC","2015-05-28 07:02:45 UTC"
+"762149","TC100","Gold - Use Gold item (3,000)","Can the user use the Gold item they have purchased?","1. From the main city view, take note of the Gold figure on the resources bar. 
+2. Click on the Resources bar 
+3. Click on the Get More button 
+4. Select to buy 3,000 Gold for 280 diamonds. 
+5. Click the ""Use"" button under the 3,000 Gold Item","The availability should decrease to zero. The Ore figure on the resource bar should increase by 3,000.","2015-05-28 07:04:00 UTC","2015-05-28 07:04:00 UTC"
+"762168","TC101","Troops - Count","Does the number of troops add up correctly?","1. From the main city view, click on the Resources bar 
+2. Scroll down to the Available Troops section.
+3. Add up the number of each type of troop.","The number of troops should match what is shown next to the header text ""Available Troops"".","2015-05-28 07:07:01 UTC","2015-05-28 07:11:45 UTC"
+"762169","TC102","Troops - Injured","Can the user see a breakdown of Troops that are injured?","1. From the main city view click on the Resources bar 
+2. Scroll down to the Troop Breakdown. 
+3. Click ""View"" next to ""Injured Troops""","The user should see a breakdown of how many Troops are injured by Troop type.","2015-05-28 07:12:34 UTC","2015-05-28 07:12:34 UTC"
+"762170","TC103","Troops - Reinforcements","Can the user see a breakdown of Troops that have been sent in for reinforcements?
+(I am yet to see this in gameplay)","1. From the main city view click on the Resources bar 
+2. Scroll down to the Troop Breakdown. 
+3. Click ""View"" next to ""Reinforcing Troops","The user should see a breakdown of how many Troops have been sent for reinforcements by troop type.","2015-05-28 07:14:15 UTC","2015-05-28 07:14:15 UTC"
+"762171","TC104","Rename City","Can the user rename the city from the Resources page?","1. From the main city view click on the Resources bar 
+2. Scroll down to the bottom of this page
+3. Click ""Rename City""","The user should be taken to the Items screen (tested in Hero suite).","2015-05-28 07:16:14 UTC","2015-05-28 07:16:14 UTC"
+"762172","TC105","Show on Map","Can the user see where their city is on the map from the resources page?","1. From the main city view click on the Resources bar 
+2. Scroll down to the bottom of this page 
+3. Click ""View on Map""","The user should be taken to Map View with the city they were in, centred.","2015-05-28 07:17:09 UTC","2015-05-28 07:17:09 UTC"

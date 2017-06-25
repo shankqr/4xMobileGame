@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundlePackageType</key>
+	<string>FMWK</string>
+	<key>Bundle name</key>
+	<string>GameAnalytics</string>
+	<key>CFBundleExecutable</key>
+	<string>GameAnalytics</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.gameanalytics.sdk.ios</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.2.7</string>
+</dict>
+</plist>

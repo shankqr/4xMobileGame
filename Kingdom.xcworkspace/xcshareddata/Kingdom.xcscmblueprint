@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B1859033C3EA3AF0A0590A00669A0C98095EE7EC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C4A10279DB419609F294453ED0F55F50D09CAA31" : 9223372036854775807,
+    "B1859033C3EA3AF0A0590A00669A0C98095EE7EC" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1CBB37C0-69AD-4D51-ACFB-87B18C9CEA5A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C4A10279DB419609F294453ED0F55F50D09CAA31" : "Kingdom\/UIManager\/",
+    "B1859033C3EA3AF0A0590A00669A0C98095EE7EC" : "Kingdom\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Kingdom",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Kingdom.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shankqr\/Kingdom.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B1859033C3EA3AF0A0590A00669A0C98095EE7EC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shankqr\/UIManager.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C4A10279DB419609F294453ED0F55F50D09CAA31"
+    }
+  ]
+}

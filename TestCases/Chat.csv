@@ -1,0 +1,17 @@
+"Test suite name","Chat"
+"Created on","2015-05-19 12:44:06 UTC"
+"Updated on","2015-05-28 18:01:48 UTC"
+
+
+"Id","Test case number","Title","Description","Test steps","Expected result","Created at","Updated at"
+"763159","TC106","World Chat - Posting","Can the user post a message in the world chat successfully?","1. From the City view, click on the chat bar towards the bottom of the screen.
+2. Type a message in the text field.
+3. Press the enter key on the keyboard.","The world chat should appear, with ""World Chat"" highlighted. When pressing Enter, the typed message should appear.","2015-05-28 17:56:11 UTC","2015-05-28 17:56:11 UTC"
+"763160","TC107","World Chat - Visual","Does the user get notification when a new chat message comes in?","1. Make sure Player A is in City View.
+2. Post a message into the World Chat using Player B.","Player A should receive a flashing animation as the new chat appears.","2015-05-28 17:59:04 UTC","2015-05-28 17:59:04 UTC"
+"763161","TC108","Alliance Chat - Posting","Can the user post a message in the Alliance chat successfully?","1. From the City view, click on the chat bar towards the bottom of the screen. 
+2. Click on ""Alliance Chat"" so that it is highlighted.
+3. Type a message in the text field. 
+4. Press the enter key on the keyboard.","When pressing Enter, the typed message should appear.","2015-05-28 18:00:51 UTC","2015-05-28 18:00:51 UTC"
+"763163","TC109","Alliance Chat - Visual","Does the user get notification when a new alliance chat message comes in?","1. Make sure Player A is in City View. 
+2. Post a message into the Alliance Chat using Player B.","Player A should receive a flashing animation as the new chat appears.","2015-05-28 18:01:48 UTC","2015-05-28 18:01:48 UTC"

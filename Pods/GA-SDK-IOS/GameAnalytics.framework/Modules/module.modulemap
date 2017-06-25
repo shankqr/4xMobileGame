@@ -1,0 +1,12 @@
+framework module GameAnalytics {
+    umbrella header "GameAnalytics.h"
+
+    export *
+    module * { export * }
+
+    link "sqlite3"
+    link "z"
+
+    link framework "SystemConfiguration"
+    link framework "AdSupport"
+}

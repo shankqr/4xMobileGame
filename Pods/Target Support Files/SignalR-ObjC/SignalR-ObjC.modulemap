@@ -1,0 +1,6 @@
+framework module SignalR_ObjC {
+  umbrella header "SignalR-ObjC-umbrella.h"
+
+  export *
+  module * { export * }
+}

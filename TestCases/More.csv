@@ -1,0 +1,37 @@
+"Test suite name","More"
+"Created on","2015-05-19 12:45:21 UTC"
+"Updated on","2015-06-10 04:33:35 UTC"
+
+
+"Id","Test case number","Title","Description","Test steps","Expected result","Created at","Updated at"
+"766083","TC244","Help","Can the user access the Help topics?","1. From anywhere within the game, click ""More"" from the Footer
+2. Click on ""Help""","The user should be taken to the help topics.","2015-06-02 07:16:42 UTC","2015-06-02 07:16:42 UTC"
+"766092","TC245","Feedback","Can the user leave feedback about the game?","1. From anywhere within the game, click ""More"" from the Footer 
+2. Click on ""Feedback""","The user should be taken to a text field where they can enter feedback.","2015-06-02 07:19:33 UTC","2015-06-02 07:19:33 UTC"
+"766116","TC246","Profile","Can the user see their own profile?","1. From anywhere within the game, click ""More"" from the Footer 
+2. Click on ""Profile""","The should be able to see the profile how another player should be able to, but should have the options for ""Alliance / Boosts / Rename"".","2015-06-02 07:24:54 UTC","2015-06-02 07:24:54 UTC"
+"766118","TC247","Invite","Can the user invite friends and others to play Kingdoms?","1. From anywhere within the game, click ""More"" from the Footer 
+2. Click on ""Invite""","The user should see a pre-written email, allowing the user to enter the recipient's email address and a subject.","2015-06-02 07:26:17 UTC","2015-06-02 07:26:17 UTC"
+"766122","TC248","Hero","Can the user jump to the Hero page from the More options?","1. From anywhere within the game, click ""More"" from the Footer 
+2. Click on ""Hero""","The user should be taken to the Hero page.","2015-06-02 07:26:56 UTC","2015-06-02 07:26:56 UTC"
+"766415","TC249","Research","Can the user jump to the research page from the More menu?","1. Ensure you have built an Academy.
+2. From anywhere within the game, click ""More"" from the Footer 
+3. Click on ""Research""","The user should be taken to the Academy page.","2015-06-02 12:14:54 UTC","2015-06-02 12:15:18 UTC"
+"766417","TC250","Marches","Can the user jump to the marches page from the More menu?","1. Ensure you have built a Rally Point. 
+2. From anywhere within the game, click ""More"" from the Footer 
+3. Click on ""Marches""","The user should be taken the Rally Point page.","2015-06-02 12:15:55 UTC","2015-06-02 12:15:55 UTC"
+"766424","TC251","Search - Player","Can the user search for another player?","1. From anywhere within the game, click ""More"" from the Footer 
+2. Click ""Search""
+3. Click ""Profiles""
+4. Enter the name of a known player.","The player searched for should appear.","2015-06-02 12:19:20 UTC","2015-06-02 12:19:20 UTC"
+"766425","TC252","Search - Alliance","Can the user search for an alliance?","1. From anywhere within the game, click ""More"" from the Footer 
+2. Click ""Search"" 
+3. Click ""Alliance"" 
+4. Enter the name of a known alliance.","The alliance searched for should appear.","2015-06-02 12:19:58 UTC","2015-06-02 12:19:58 UTC"
+"766431","TC253","Rankings - Players","Can the user see the rankings of all players?","1. From anywhere within the game, click ""More"" from the Footer 
+2. Click ""Rankings"" 
+3. Click ""Top Players""","You should see the top players in the game.","2015-06-02 12:22:59 UTC","2015-06-10 04:33:35 UTC"
+"766432","TC254","Rankings - Top Alliance","Can the user see the rankings of all alliances","1. From anywhere within the game, click ""More"" from the Footer 
+2. Click ""Search"" 
+3. Click ""Top Alliances""","You should see the top alliances in the game.","2015-06-02 12:23:35 UTC","2015-06-02 12:23:35 UTC"
+"766441","TC255","Audio Options","See Dropbox file here: https://www.dropbox.com/s/rl88hd02hxl80rn/Kingdoms%20Testing%20v1.docx?dl=0","See Dropbox file.","See Dropbox file.","2015-06-02 12:29:37 UTC","2015-06-05 09:53:42 UTC"

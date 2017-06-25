@@ -1,0 +1,48 @@
+"Test suite name","Free Skate Fixed Bugs"
+"Created on","2015-08-09 08:22:43 UTC"
+"Updated on","2015-08-09 09:01:35 UTC"
+
+
+"Id","Test case number","Title","Description","Test steps","Expected result","Created at","Updated at"
+"848234","TC361","Sign appearing in tile in front of the Castle","Currently the number showing the Castle's level sits on the tile in front of it.","1. Enter City View
+2. Make sure there is nothing built on the tile directly in front of the Castle","The sign should not appear in the tile when there is nothing built.","2015-08-09 08:29:02 UTC","2015-08-09 08:29:02 UTC"
+"848236","TC362","Tavern - ""Available spy vs. Available spies""","Tavern - ""Available Spy"". This is fine when there is 1 single spy available but when there are zero or more than one, it should say ""Available Spies""","1. Enter City View
+2. Tap on the Tavern","Agreed to show ""Available spies"" no matter the amount.","2015-08-09 08:31:44 UTC","2015-08-09 08:31:44 UTC"
+"848237","TC363","Creating an alliance - field validation","I was creating an Alliance and has ""Zassa"" as the name, ""Zas"" as the label and had only entered ""ABC"" as the description. I clicked Create and it gave me an error to say that the name must be at least 4 characters in length. I couldn't clear this until I added a 4th character to the description. I think the description is triggering the the name validation error.","1. Tap Alliance from the footer.
+2. Tap ""Create Alliance""
+3. For the name enter ""Zassa""
+4. For the label enter ""ZAS""
+5. Enter ""ABC"" in the description.
+6. Tap ""Create""","The alliance should be created successfully.","2015-08-09 08:34:54 UTC","2015-08-09 08:34:54 UTC"
+"848241","TC364","Setting Alliance Tag - Enter Name","When setting the alliance tag, the heading says ""Enter name"".","1. Tap Alliance from the footer
+2. Tap Set Tag","The header should say ""Enter Tag""","2015-08-09 08:39:26 UTC","2015-08-09 08:39:26 UTC"
+"848246","TC365","Alliance name and tag leading with number","Potential issue with having an Alliance Name or Alliance Tag leading with a number. Throws up an error to say must be 4 characters or over (which is really wrong for the tag, as it can only be 3 characters)","1. Tap alliance from the footer
+2. Tap Set Alliance Name
+3. Purchase and use Alliance Renamer
+4. Enter a new name, leading with a number
+5. Tap OK
+6. Tap Set Tag
+7. Purchase and use Alliance Tag Renamer
+8. Tap OK","At points 5 and 8, it should be possible to have alliance names and tags save with leading numbers.","2015-08-09 08:45:27 UTC","2015-08-09 08:45:27 UTC"
+"848249","TC366","Troop number update in barracks","When using a speed up to speed up the time it takes to train troops, the number of troops owned in the barracks, does not update until you exit and re-enter the barracks.","1. Enter City View
+2. Enter the Barracks
+3. Train some troops
+4. Do not leave the Barracks screen and wait for the training to be complete","When the training is complete, the number of troops listed in the barracks should increase by the amount selected to train.","2015-08-09 08:47:50 UTC","2015-08-09 08:47:50 UTC"
+"848250","TC367","No graphics in World View","There are no graphics, apart from cities showing in world view.","1. Enter World View","Lakes, hiils, desserts, Cities, Villages, etc. should all show.","2015-08-09 08:48:53 UTC","2015-08-09 08:48:53 UTC"
+"848254","TC368","Header view buttons colourless","In World View the header icon buttons are colourless","1. Enter World View","The headers for bookmarks, jump to own city, etc. should all show in colour.","2015-08-09 08:50:12 UTC","2015-08-09 08:50:12 UTC"
+"848256","TC369","Building list description for Stable","In the building list, for the Stable, the word ""Calvary"" should be ""Cavalry""","1. Enter City View
+2. Tap on a blank tile
+3. Look for the Stable description","In the description, ""Calvary"" should be changed to ""Cavalry""","2015-08-09 08:54:28 UTC","2015-08-09 08:54:28 UTC"
+"848257","TC370","Building list description for watchtower","In the building list, for the Watchtower, ""from far"" should be ""from afar"".","1. Enter City View 
+2. Tap on a blank tile 
+3. Look for the Watchtower description","In the building list, for the Watchtower, ""from far"" should be ""from afar"".","2015-08-09 08:55:23 UTC","2015-08-09 08:55:23 UTC"
+"848260","TC371","Troops description - Mid attacking troops","For the mid level units, the description, ""mid infantry..."" Should be ""mid-level infantry""","1. Enter City View
+2. Tap on the Barracks
+3. Look at the description for the Swordsmen.
+4. Tap on the Siege Workshop
+5. Look at the description for the Battering Ram
+6. Tap on the Stable
+7. Look at the description for the Mounted Archer.
+8 Tap on the Archery Range
+9. Look at the description for the Longbowmen","For all the above mentioned units, the description, ""mid infantry..."" Should be ""mid-level infantry""","2015-08-09 09:00:07 UTC","2015-08-09 09:00:07 UTC"
+"848262","TC372","Grammar for 3 day non-play notification","Notification after not logging in for 3 days. The first sentence should be ""Your players miss you....""","1. Do not enter the game for 3 days after playing.","Notification after not logging in for 3 days. The first sentence should be ""Your players miss you....""","2015-08-09 09:01:35 UTC","2015-08-09 09:01:35 UTC"

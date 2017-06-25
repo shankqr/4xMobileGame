@@ -1,0 +1,126 @@
+"Test suite name","Multiple City Actions"
+"Created on","2015-07-02 12:14:24 UTC"
+"Updated on","2015-07-13 07:38:14 UTC"
+
+
+"Id","Test case number","Title","Description","Test steps","Expected result","Created at","Updated at"
+"811137","TC324","Jumping from a Capital City to a Ruling City?","Can the user jump from one city to another without any problems?","1. Enter the capital city. 
+2. Click on the City name in the header
+3. Click ""View"" next to a ""Ruling City""","The user is taken to the ruling city successfully.","2015-07-02 12:31:06 UTC","2015-07-02 12:44:00 UTC"
+"811139","TC325","Jumping from a Ruling City to a Capital City?","Can the user jump from one city to another without any problems?","1. Enter a Ruling City. 
+2. Click on the City name in the header 
+3. Click ""View"" next to the ""Capital City""","The user is taken to the Capital city successfully.","2015-07-02 12:31:55 UTC","2015-07-02 12:44:07 UTC"
+"811140","TC326","Jumping from a Ruling City to another Ruling City?","Can the user jump from one city to another without any problems?","1. Enter a Ruling City. 
+2. Click on the City name in the header 
+3. Click ""View"" next to the ""Ruling City""","The user is taken to the Capital city successfully.","2015-07-02 12:32:26 UTC","2015-07-02 12:44:12 UTC"
+"811135","TC322","Build a house in an Capital City at the same time as a Ruling City","Can the user build a house in an ruling city at the same time as in their capital city?","1. Enter the capital city.
+2. Click on a spare tile
+3. Select a House
+4. Click Build
+5. Return to City view
+6. Click the City name button in the header
+7. Click ""View"" next to a ""Ruling City""
+8. Repeat steps 2-4.","After step 4, the countdown should begin. After trying to build in the ruling city, another countdown should begin. I would expect some sort of identification to show which counter belongs to which city.","2015-07-02 12:21:55 UTC","2015-07-02 12:29:02 UTC"
+"811136","TC323","Build a house in two different ruling cities","Can the user build a house in a ruling city at the same time as another ruling city?","1. Enter one of the ruling cities. 
+2. Click on a spare tile 
+3. Select a House 
+4. Click Build 
+5. Return to City view 
+6. Click the City name button in the header 
+7. Click ""View"" next to a ""Ruling City"" 
+8. Repeat steps 2-4.","After step 4, the countdown should begin. After trying to build in the second ruling city, another countdown should begin. I would expect some sort of identification to show which counter belongs to which city.","2015-07-02 12:23:25 UTC","2015-07-02 12:23:25 UTC"
+"811149","TC327","Training troops in a Capital City at the same time as a Ruling City","Can the user train troops in an ruling city at the same time as in their capital city?","1. Enter the capital city. 
+2. Click on the Barracks 
+3. Select a Troop type to train 
+4. Click Train
+5. Return to City view 
+6. Click the City name button in the header 
+7. Click ""View"" next to a ""Ruling City"" 
+8. Repeat steps 2-4.","After step 4, the countdown should begin. After clicking Train in the ruling city, another countdown should begin. I would expect some sort of identification to show which counter belongs to which city.","2015-07-02 12:50:01 UTC","2015-07-02 12:50:01 UTC"
+"811150","TC328","Training troops in two Ruling Cities at the same time","Can the user train troops in ruling cities at the same time?","1. Enter a Ruling city. 
+2. Click on the Barracks 
+3. Select a Troop type to train 
+4. Click Train 
+5. Return to City view 
+6. Click the City name button in the header 
+7. Click ""View"" next to a different ""Ruling City"" 
+8. Repeat steps 2-4.","After step 4, the countdown should begin. After clicking Train in the ruling city, another countdown should begin. I would expect some sort of identification to show which counter belongs to which city.","2015-07-02 12:52:30 UTC","2015-07-02 12:52:30 UTC"
+"811966","TC329","Run research in Capital City at the same time as a Ruling City","Can the user run research in a ruling city at the same time as in their capital city?","1. Enter the capital city. 
+2. Click on the Library 
+3. Select a technology type 
+4. Click an item to research
+5. Click Research.
+6. Return to City view 
+7. Click the City name button in the header 
+8. Click ""View"" next to a ""Ruling City"" 
+9. Repeat steps 2-4.","After step 4, the countdown should begin. After clicking Research in the ruling city, another countdown should begin. I would expect some sort of identification to show which counter belongs to which city.","2015-07-03 07:19:03 UTC","2015-07-03 07:19:49 UTC"
+"811967","TC330","Run research in two Ruling Cities at the same time","Can the user run research in two ruling cities at the same time?","1. Enter a Ruling city. 
+2. Click on the Library 
+3. Select a technology type 
+4. Click an item to research 
+5. Click Research. 
+6. Return to City view 
+7. Click the City name button in the header 
+8. Click ""View"" next to another ""Ruling City"" 
+9. Repeat steps 2-4.","After step 4, the countdown should begin. After clicking Research in the ruling city, another countdown should begin. I would expect some sort of identification to show which counter belongs to which city.","2015-07-03 07:21:46 UTC","2015-07-03 07:21:46 UTC"
+"811969","TC331","Sending resources from Capital City to Ruling City","Can the user successfully send resources from a Capital City to a Ruling City?","1. Enter the capital city. 
+2. Click on the Market.
+3. ""Send"" next to one of the Ruling Cities
+4. Select the amount of resources.
+5. Click ""Send Now""","The countdown should begin.","2015-07-03 07:31:15 UTC","2015-07-03 07:31:15 UTC"
+"812976","TC332","Sending resources from one Ruling City to another","Can the user successfully send resources from a Ruling City to another Ruling City?","1. Enter the a Ruling city. 
+2. Click on the Market. 
+3. ""Send"" next to another Ruling City
+4. Select the amount of resources. 
+5. Click ""Send Now""","The countdown should begin.","2015-07-03 17:49:49 UTC","2015-07-03 17:49:49 UTC"
+"812978","TC333","Sending resources from a Ruling City to an Ally","Can the user successfully send resources from a Ruling City to an Ally?","1. Enter the a Ruling city. 
+2. Click on the Market. 
+3. Click ""Send"" next to an ally member
+4. Select the amount of resources. 
+5. Click ""Send Now""","The countdown should begin.","2015-07-03 17:55:39 UTC","2015-07-03 18:20:25 UTC"
+"813006","TC334","Sending reinforcements from Capital City to Ruling City","Can the user successfully send reinforcements from a Capital City to a Ruling City?","1. Enter the capital city. 
+2. Click on the City Name in the header
+3. Click ""Reinforce"" next to one of the Ruling Cities 
+4. Select the amount of troops to send. 
+5. Click ""Send Now""","The countdown should begin.","2015-07-03 18:30:24 UTC","2015-07-03 18:30:24 UTC"
+"813020","TC335","Sending reinforcements from one Ruling City to another","Can the user successfully send reinforcements from a Ruling City to another Ruling City?","1. Enter a Ruling City. 
+2. Click on the City Name in the header 
+3. Click ""Reinforce"" next to another Ruling City
+4. Select the amount of troops to send. 
+5. Click ""Send Now""","The countdown should begin.","2015-07-03 18:32:00 UTC","2015-07-03 18:32:00 UTC"
+"813037","TC336","Sending reinforcements from a Ruling City to an Ally","Can the user successfully send reinforcements from a Ruling City to an Ally?","1. Enter the a Ruling city. 
+2. Click ""Alliance"" from the footer. 
+3. Click ""Reinforce""
+4. Click ""Help"" next to an Ally member
+5. Select the number of Troops to send
+6. Click ""Send Now""","The countdown should begin.","2015-07-03 18:40:58 UTC","2015-07-03 18:40:58 UTC"
+"813496","TC338","Identifying a Ruling City","Can the user identify a Ruling City that they own in Map View?","1. Enter Map View 
+2. Enter the coordinates of a Ruling City","The Ruling Cities should be easily identifiable.","2015-07-06 07:12:05 UTC","2015-07-06 07:12:05 UTC"
+"813495","TC337","Attacking own Ruling City","Can the user attack a Ruling City that they rule?","1. Enter Map View
+2. Find a Ruling City that you own
+3. Click on the City
+4. Click ""Attack""","When clicking on the Ruling City, the option to Attack should not appear and therefore preventing an attack from being initiated.","2015-07-06 07:07:10 UTC","2015-07-06 07:07:10 UTC"
+"815396","TC339","Bookmark a Ruling City","Can the user bookmark a Ruling City?","1. Enter Map View
+2. Locate a Ruling City
+3. Click on the Ruling City
+4. Click Bookmark
+5. Give the Bookmark a label","Ruling City should be added to the Bookmark list.","2015-07-07 06:50:59 UTC","2015-07-07 06:50:59 UTC"
+"815401","TC340","Enter a Ruling City","Can the user Enter a Ruling City from Map View?","1. Enter Map View 
+2. Locate a Ruling City 
+3. Click on the Ruling City 
+4. Click Enter City","The user should enter the Ruling City.","2015-07-07 07:01:41 UTC","2015-07-07 07:01:41 UTC"
+"815402","TC341","Trade with Ruling City","Can the user initiate a trade with a Ruling City from Map View?","1. Enter Map View 
+2. Locate a Ruling City 
+3. Click on the Ruling City 
+4. Click Trade
+5. Select Resources to trade
+6. Click Send Now","The counter should begin.","2015-07-07 07:03:22 UTC","2015-07-07 07:03:22 UTC"
+"815403","TC342","Reinforce a Ruling City","Can the user reinforce a Ruling City from Map View?","1. Enter Map View 
+2. Locate a Ruling City 
+3. Click on the Ruling City 
+4. Click Reinforce
+5. Select number of Troops to send
+6. Click Send Now","The countdown timer should begin.","2015-07-07 07:04:16 UTC","2015-07-07 07:04:16 UTC"
+"820746","TC343","City Name Splash Text","Does the name of the City appear when the player enters?","1. Enter the game, or switch to another Ruling/Capital City.
+2. Change the City name.
+3. Complete step 3.","The name of the City should appear. After changing the name, the new City name should appear.","2015-07-13 07:38:14 UTC","2015-07-13 07:38:14 UTC"

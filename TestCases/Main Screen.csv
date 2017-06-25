@@ -1,0 +1,104 @@
+"Test suite name","Main screen"
+"Created on","2015-05-19 12:37:55 UTC"
+"Updated on","2015-08-19 07:03:20 UTC"
+
+
+"Id","Test case number","Title","Description","Test steps","Expected result","Created at","Updated at"
+"755765","TC12","Hero page","Does the Hero page open as expected?","1. From the main screen.
+2. Press the Hero icon in the top left of the screen.","Hero screen should open successfully.","2015-05-25 07:02:00 UTC","2015-05-25 07:02:00 UTC"
+"755769","TC13","Power page","Does the Power page open as expected?","1. From the main screen. 
+2. Press the Power text button from the top of the screen.","Power screen should open successfully.","2015-05-25 07:03:30 UTC","2015-05-25 07:03:30 UTC"
+"755778","TC14","City list page","Does the City page open as expected?","1. From the main screen. 
+2. Press the City text button from the top of the screen.","The City list screen should open successfully.","2015-05-25 07:05:23 UTC","2015-05-25 07:05:23 UTC"
+"755811","TC15","Diamonds page","Does the ""Get More Diamonds"" page open as expected?","1. From the main screen
+2. Click on the button in the top-right to ""Get More"" diamonds.","The Buy Diamonds screen should appear successfully.","2015-05-25 07:07:18 UTC","2015-05-25 07:07:18 UTC"
+"756730","TC16","Resource bar - Resources","Do the resources display correctly on the resources bar? Does the resources screen launch when it is clicked.","1. Make sure you are on the main screen.
+2 Check that there is a value next to food.
+3. Check that there is a value next to wood.
+4.Check that there is a value next to stone.
+5. Check that there is a value next to ore.
+6. Check that there is a value next to gold.
+7. Click the resources bar to see if it opens correctly.","All resources should have a value next to it in 1,000's. (k). Clicking the resources bar should open up the resources screen.","2015-05-25 15:09:07 UTC","2015-05-25 15:09:07 UTC"
+"756732","TC17","Chat bar - Opening of the chat page","Does the chat page open upon request?","1. From the main game screen, click on the chat bar at the bottom","Chat page should open successfully.","2015-05-25 15:18:13 UTC","2015-05-25 15:18:13 UTC"
+"756917","TC18","Chat bar - Swiping","Does the swipe between the global chat and the alliance chat work?","1. From the main screen, swipe the chat bar to the left to see latest alliance message.
+2. Swipe chat bar to the right to show latest world chat message.","The user should be able to swipe between world chat messages and alliance chat messages as they please.","2015-05-25 15:29:10 UTC","2015-05-25 15:29:10 UTC"
+"756919","TC19","Chat bar - Output display","Do chat messages appear for both world chat and alliance chat when the user is viewing the main screen.","1. Open the World chat
+2. Enter a message
+3. Select the tab for Alliance chat
+4. Enter a different message
+5. Return to main screen","The first world chat message should appear in the chat bar at the bottom. Swiping to see the alliance chat should show the different message entered.","2015-05-25 15:34:31 UTC","2015-05-25 15:34:31 UTC"
+"756921","TC20","Footer - Map/City toggle","Can the user switch between city view and map view successfully.","1. From the main city screen, click on the City button in the bottom left.
+2. If the map view appears, click on the Map button in the bottom left to switch back to City view.","The user should be able to toggle between city view and map view successfully. The yellow dot within the button should also change, depending on which view is currently selected.","2015-05-25 15:41:40 UTC","2015-05-25 15:41:40 UTC"
+"756924","TC22","Footer - Alliance","Does the Alliance button take the user to the relevant page?","1. From the city view, click the Alliance button.","The user should be taken to the Alliance page and the button should be highlighted.","2015-05-25 15:45:30 UTC","2015-05-25 15:45:30 UTC"
+"756923","TC21","Footer - Quest","Does the Quest button take the user to the relevant page?","1. From the city view, click the Quest button.","The user should be taken to the Quest page and the button should be highlighted.","2015-05-25 15:43:59 UTC","2015-05-25 15:45:42 UTC"
+"756926","TC23","Footer - Item","Does the Item button take the user to the relevant page?","1. From the city view, click the Item button.","The user should be taken to the Item page and the button should be highlighted.","2015-05-25 15:46:37 UTC","2015-05-25 15:46:37 UTC"
+"756927","TC24","Footer - Mail","Does the Mail button take the user to the relevant page?","1. From the city view, click the Mail button.","The user should be taken to the Mail page and the button should be highlighted.","2015-05-25 15:47:35 UTC","2015-05-25 15:47:35 UTC"
+"756936","TC25","Footer - More","Does the More button take the user to the relevant page?","1. From the city view, click the More button.","The user should be shown more options and the More button should be highlighted.","2015-05-25 15:50:06 UTC","2015-05-25 15:50:06 UTC"
+"756937","TC26","City view - Scroll","Can the user navigate around the city view?","1. on the main city view screen, use a single finger touch gesture to scroll around the city.","The user should be able to move the camera up, down, left and right to navigate around the city.","2015-05-25 15:54:27 UTC","2015-05-25 15:54:27 UTC"
+"756938","TC27","City view - Zoom in/out","Can the user zoom in and out of their city?","1. From the city view, use a two finger touch and move them apart to zoom in.
+2. Use two finger touch and move fingers closer together to zoom out.","The user should be able to zoom in and out as they please.","2015-05-25 15:57:05 UTC","2015-05-25 15:57:05 UTC"
+"756939","TC28","Building images","Do the building show correctly, depending on their level?","To be run when game art is complete.","The buildings should change from level 1-5, 6-14, 15-22.","2015-05-25 15:59:27 UTC","2015-06-05 07:28:53 UTC"
+"756941","TC29","Build - Time required","Does the build time stated for a building show?","1. in city view, find an empty patch of land.
+2. Select any building available.","A time should appear under ""Time remaining:"".","2015-05-25 16:06:52 UTC","2015-05-25 16:06:52 UTC"
+"756943","TC30","Build - Time boost - Visible","Testing to see whether the time boost stats are available.","1. In city view, find an empty patch of land. 
+2. Select any building available.","Above the build button a time should show with a percentage","2015-05-25 16:13:42 UTC","2015-06-05 07:46:25 UTC"
+"756944","TC31","Build - Time boost - Activating","Does the time boost work and is the correct amount of time subtracted?","1. In city view, find an empty patch of land. 
+2. Select any building available.
+3. Make sure you are able to build and click the Build button.
+4. Whilst the build is in progress, click on ""Speed Up""
+5. Select an option to boost the building progress","The build time should reduce by the amount selected.","2015-05-25 16:22:15 UTC","2015-08-19 07:00:04 UTC"
+"756947","TC32","Build - Requirements - Queue","If there is a build queue can the user build something else?","1. In city view, find an empty patch of land. 
+2. Make sure there are no building currently building
+3. Select any building available. 
+4. Look to see if there is a tick or a cross for the Build Queue
+5. Click on Build.
+6. Repeat steps 2-4 within the build time of the first building.","For the first building there should be a green tick for the build queue, allowing you to build. When the user tries to build the second building, it should show a red cross, meaning that the user cannot click on Build.","2015-05-25 16:38:08 UTC","2015-05-25 16:38:08 UTC"
+"756967","TC33","Build - Requirements - Resources","What happens if there are not enough resources to build something?","1. In city view, find an empty patch of land. 
+2. Select any building available. 
+3. Look to see whether there are any crosses under requirements
+4. If there are, click Get More.","If there are any red crosses for food, wood, ore, stone or gold, the user should not be able to click the build button and be able to access that particular resources page by clicking Get More.
+
+If all of the resources are sufficient, then the build button should be available.","2015-05-25 18:20:46 UTC","2015-05-26 11:57:50 UTC"
+"757393","TC34","Build - Reward info","Is the Build Reward info populated?","1. In city view, find an empty patch of land. 
+2. Select any building available. 
+3. Scroll down to the Build Reward section.","There should be information for how much Hero XP and Power is increased by building.","2015-05-26 12:26:10 UTC","2015-05-26 12:26:10 UTC"
+"757420","TC35","Build - Upgrade","Can the user see Reward details for upgrading a building?","1. In city view, find an existing building. 
+2. Click on the Upgrade button
+3. Scroll down to the Build Reward section.","There should be information for how much Hero XP and Power is increased by upgrading the building.","2015-05-26 12:43:03 UTC","2015-05-26 12:43:03 UTC"
+"757423","TC36","Build - In construction - Visual","Can the user see clearly that construction is in progress?","1. In city view, find an empty patch of land. 
+2. Select any building available. 
+3. Ensure you have the correct amount of resources.
+4. Click Build","The selected building should appear with a construction fence around it and the build time can be seen.","2015-05-26 12:50:00 UTC","2015-05-26 12:50:00 UTC"
+"757425","TC37","Build - In construction - Upgrade?","Can the user upgrade the building whilst it is being built for the first time?","1. In city view, find an empty patch of land. 
+2. Select any building available. 
+3. Ensure you have the correct amount of resources. 
+4. Click Build
+5. Click on the building under construction","The building's screen should appear, but the upgrade button should be disabled. The user should not be able to click this.","2015-05-26 12:53:05 UTC","2015-05-26 12:53:05 UTC"
+"757430","TC38","Build - Upgrade - Max level reached","Can the user upgrade a building beyond the maximum of level 22?","1. In city view, find an existing building
+2. Upgrade until it is level 22.
+3. Click on that building once more.","The upgrade button should be disabled and the user should not be able to upgrade to level 23.","2015-05-26 12:58:23 UTC","2015-05-26 12:58:23 UTC"
+"757431","TC39","Build - Upgrade","Is it obvious to the user that the building is being upgraded?","1. In city view, find an existing building. 
+2. Ensure you have the correct amount of resources.
+3. Click Upgrade","The selected building should appear with a construction fence around it and the build time can be seen.","2015-05-26 13:00:05 UTC","2015-05-26 13:00:05 UTC"
+"758783","TC40","Build - Building completion - Visuals","Is it obvious to the user that the construction is complete?","1. In city view, find an empty patch of land. 
+2. Select any building available. 
+3. Ensure you have the correct amount of resources. 
+4. Click Build and wait for the build to complete.","The construction animation should disappear and a notification should appear if the user is within the game.","2015-05-26 18:24:04 UTC","2015-05-26 18:24:44 UTC"
+"758788","TC41","Build - Building completion - Resources update","Has the build lowered resources and increased bonus, as expected?","1. In city view, find an empty patch of land. 
+2. Select any building available. 
+3. Ensure you have the correct amount of resources.
+4. Take note of the resources required to build
+5. Take note of the Power and Hero XP increase in the Build rewards 
+6. Click Build and wait for the build to complete.
+7. Check resources bar
+8. Check Hero XP
+9. Check Power","The resources should have decreased by the amount shown in the ""Requirements"" section. Hero XP and Power should have increased by the amount shown in the Build Rewards section.","2015-05-26 18:29:19 UTC","2015-05-26 18:29:19 UTC"
+"857459","TC390","New Map Graphics - Capital City","New map graphics added for v1.0.9 for a Capital City","Ensure that you are looking at a Capital City.","The graphics should appear with no errors.","2015-08-19 06:55:27 UTC","2015-08-19 06:56:17 UTC"
+"857460","TC391","New Map Graphics - Captured Village","New map graphics added for v1.0.9 for a Captured Village","Ensure that you are looking at a Captured Village","The graphics should appear with no errors.","2015-08-19 06:56:10 UTC","2015-08-19 06:56:10 UTC"
+"857461","TC392","Build - Captured Village","In v.1.0.9, all types of building can be built inside or outside the City Walls.","Enter a Captured Village
+Click on a blank tile inside the City Wall
+Build a Barracks
+Build a Farm
+Click on a blank tile outside the City Wall
+Build a House
+Build a Stone Quarry","All buildings should be built without any problem, in the areas mentioned above.","2015-08-19 07:03:20 UTC","2015-08-19 07:03:20 UTC"

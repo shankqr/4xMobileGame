@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EF8076B75C1379399011B648A235EBE224BE7DD0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EF8076B75C1379399011B648A235EBE224BE7DD0" : 0,
+    "B1859033C3EA3AF0A0590A00669A0C98095EE7EC" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5AACEBAE-234C-4781-9E57-1F8922C86EB6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EF8076B75C1379399011B648A235EBE224BE7DD0" : "BattleSimulator\/",
+    "B1859033C3EA3AF0A0590A00669A0C98095EE7EC" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Battle",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Battle.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shankqr\/Kingdom.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B1859033C3EA3AF0A0590A00669A0C98095EE7EC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shankqr\/Battle.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EF8076B75C1379399011B648A235EBE224BE7DD0"
+    }
+  ]
+}

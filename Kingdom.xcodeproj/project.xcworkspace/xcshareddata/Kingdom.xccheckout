@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4BBFA4D4-5353-43FA-B7D8-3610239886F9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Kingdom</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B1859033C3EA3AF0A0590A00669A0C98095EE7EC</key>
+		<string>https://github.com/shankqr/Kingdom.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Kingdom.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B1859033C3EA3AF0A0590A00669A0C98095EE7EC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/shankqr/Kingdom.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B1859033C3EA3AF0A0590A00669A0C98095EE7EC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B1859033C3EA3AF0A0590A00669A0C98095EE7EC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Kingdom</string>
+		</dict>
+	</array>
+</dict>
+</plist>

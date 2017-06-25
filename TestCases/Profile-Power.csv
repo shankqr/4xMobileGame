@@ -1,0 +1,44 @@
+"Test suite name","Profile/Power"
+"Created on","2015-05-19 12:43:06 UTC"
+"Updated on","2015-05-27 12:45:44 UTC"
+
+
+"Id","Test case number","Title","Description","Test steps","Expected result","Created at","Updated at"
+"760033","TC57","Change profile picture - Buy","Can the user buy the profile picture changer?","1. From city view click Power from the header.
+2. Click on the avatar in the top left
+3. Click Get for Profile Pic Changer for 60 diamonds","A button should appear stating that one profile pic changer is available for use. The number of total diamonds should decrease by 60.","2015-05-27 12:25:24 UTC","2015-05-27 12:42:41 UTC"
+"760035","TC58","Change profile picture - Use","Can the user spend the profile picture changer and change their profile pic?","1. From city view click Power from the header. 
+2. Click on the avatar in the top left 
+3. Click Get for Profile Pic Changer for 60 diamonds
+4. Click on ""Use"" under the profile pic changer
+5. Select a profile pic and click ""Use this""","The selected profile picture should appear within the Power/Profile screen. There should be no Profile Pic Changers owned.","2015-05-27 12:28:28 UTC","2015-05-27 12:28:28 UTC"
+"760038","TC59","Alliance - Comments","Can the user comment within the alliance?","1. From city view click Power from the header. 
+2. Click on ""Alliance""
+3. Click on ""Comment""
+4. Write a comment in the text field. Press the Enter key on the keyboard to submit.","The comment should be displayed in the comments section with a time stamp and the correct user's name.","2015-05-27 12:32:18 UTC","2015-05-27 12:32:18 UTC"
+"760039","TC60","Alliance - Members","Can the user see members of an alliance?","1. From city view click Power from the header. 
+2. Click on ""Alliance"" 
+3. Click on ""Members""","A screen should appear which shows all the members of the alliance.","2015-05-27 12:33:17 UTC","2015-05-27 12:33:17 UTC"
+"760040","TC61","Alliance - Stats","Can a user see all the stats for the alliance?","1. From city view click Power from the header. 
+2. Click on ""Alliance"" 
+3. Click on ""Stats""","A list of stats should appear in this page.","2015-05-27 12:35:07 UTC","2015-05-27 12:35:07 UTC"
+"760042","TC62","Alliance - Return to profile","Can the user return back to their profile from the Alliance page?","1. From city view click Power from the header. 
+2. Click on ""Alliance"" 
+3. Click on back arrow in the top left.","The user should return back to the Profile page.","2015-05-27 12:37:22 UTC","2015-05-27 12:37:22 UTC"
+"760044","TC63","Boost","Do the boosts stats accessed from the Profile page match what is shown in the Hero boosts page?","1. From city view, click on the Hero and then Hero Boost.
+2. Take note of a figure from each section.
+3. Go back to city view
+4. Click Power from the top
+5. Click Boosts
+6. Compare figures from the Hero boosts to the Boost screen","They should be the same.","2015-05-27 12:40:07 UTC","2015-05-27 12:40:07 UTC"
+"760045","TC64","Profile Renamer - Buy","Can the user buy a Profile Renamer item successfully?","1. From city view click Power from the header. 
+2. Click ""Rename""
+3. Click Get for Profile Renamer for 40 diamonds","A button should appear stating that one profile renamer is available for use. The number of total diamonds should decrease by 40.","2015-05-27 12:42:31 UTC","2015-05-27 12:42:31 UTC"
+"760048","TC65","Profile Renamer - Use","Can the user use a Profile Renamer item successfully?","1. From city view click Power from the header. 
+2. Click on ""Rename""
+3. Click Get for Profile Renamer for 40 diamonds 
+4. Click on ""Use"" under the profile renamer 
+5. Click on ""Cancel""
+6. Click ""Use"" again
+7. Enter a new name.
+8. Click OK","When clicking cancel the profile name should not change, neither should the number of profile renamers available. After clicking OK, the new profile name should be applied and be visible throughout the game. The number of profile renamers available should decrease by one.","2015-05-27 12:45:44 UTC","2015-05-27 12:45:44 UTC"

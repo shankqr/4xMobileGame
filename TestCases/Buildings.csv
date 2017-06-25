@@ -1,0 +1,116 @@
+"Test suite name","Buildings"
+"Created on","2015-05-19 12:45:36 UTC"
+"Updated on","2015-10-28 19:01:56 UTC"
+
+
+"Id","Test case number","Title","Description","Test steps","Expected result","Created at","Updated at"
+"766445","TC256","Castle - Upgrade","Can the user upgrade this building successfully?","1. From City view, click on the Castle.
+2. Click ""Upgrade""
+3. Click ""Upgrade""","If there are sufficient resources and nothing else is being built, the user can upgrade and the timer will start. If there are not enough resources ""Upgrade"" will be disabled.","2015-06-02 12:34:26 UTC","2015-06-02 12:38:38 UTC"
+"766446","TC257","Castle - Info","Can the user see the information for this building?","1. From City view, click on the Castle.
+2. Click ""Castle Info""","All the information required about building upgrades should be available.","2015-06-02 12:36:05 UTC","2015-06-02 12:36:05 UTC"
+"766449","TC258","Castle - City Details","Can the user see the Ciy details?","1. From City view, click on the Castle. 
+2. Click ""Castle Details""","The user should be able to see a breakdown of resources received hourly, a breakdown of troops. The option to rename the city and see it on a map.","2015-06-02 12:38:08 UTC","2015-06-02 12:38:08 UTC"
+"766451","TC259","Wall - Upgrade","Can the user upgrade the wall successfully?","1. From City view, click on the Wall. 
+2. Click ""Upgrade"" 
+3. Click ""Upgrade""","If there are sufficient resources and nothing else is being built, the user can upgrade and the timer will start. If there are not enough resources ""Upgrade"" will be disabled.","2015-06-02 12:39:54 UTC","2015-06-02 12:39:54 UTC"
+"766452","TC260","Wall - Info","Can the user see the information for the wall?","1. From City view, click on the Wall. 
+2. Click ""More Information""","All the information required about wall upgrades should be available.","2015-06-02 12:40:57 UTC","2015-06-02 12:40:57 UTC"
+"766455","TC261","Rural buildings - Upgrade","Can the user upgrade this building successfully?","1. From City view, click on a Farm, Iron Mine, Stone Quarry or Sawmill. 
+2. Click ""Upgrade"" 
+3. Click ""Upgrade""","If there are sufficient resources and nothing else is being built, the user can upgrade and the timer will start. If there are not enough resources ""Upgrade"" will be disabled.","2015-06-02 12:44:36 UTC","2015-06-02 12:44:36 UTC"
+"766456","TC262","Rural buildings - Capacity/Production","Can the user see the capacity/production for that particular building and the entire city?","1. From City view, click on a Farm, Iron Mine, Stone Quarry or Sawmill.","The user will be able to see the capacity limit and production rate split between that particular building and what the entire city makes incorporating all of that particular type of resource.","2015-06-02 12:46:26 UTC","2015-06-02 12:46:26 UTC"
+"766457","TC263","Rural buildings - Info","Can the user see the information for this building?","1. From City view, click on a Farm, Iron Mine, Stone Quarry or Sawmill.
+2. Click ""More Information""","The level that, that particular building is should be highlighted.Rewards should be visible.","2015-06-02 12:48:18 UTC","2015-06-02 12:48:18 UTC"
+"766460","TC264","Rural buildings - Get","Can the user get more resources instantly?","1. From City view, click on a Farm, Iron Mine, Stone Quarry or Sawmill.
+2. Click ""Get [Food, Ore, Stone, Wood]""","The user should be taken to the item store to purchase more resources.","2015-06-02 12:49:50 UTC","2015-06-02 12:49:50 UTC"
+"766461","TC265","Rural buildings - Deconstruct","Can the user remove buildings from their City?","1. From City view, click on a Farm, Iron Mine, Stone Quarry or Sawmill. 
+2. Click ""Deconstruct""","The user should be taken to the items page where they can use a Torch to desconstruct the building.","2015-06-02 12:53:37 UTC","2015-06-02 12:53:37 UTC"
+"766463","TC266","Military buildings - Capacity","Can the user see the training capacity for troops for that building?","1. From City view, click on the Barracks, Archery Range, Stable, Siege Workshop","The user will see all of the information about troop training.","2015-06-02 12:56:08 UTC","2015-06-02 12:56:08 UTC"
+"766783","TC267","Military buildings - Training Capacity / Info","Can the user see more information about the training capacity?","1. From City view, click on the Barracks, Archery Range, Stable, Siege Workshop
+2. Click on Troop Capacity
+3. Click ""More Information""","After step 2 the user should be able to see the building level and the total training capacity.
+After step 3, the user should be able to see how the training capacity increases as the building levels up.","2015-06-02 17:48:05 UTC","2015-06-02 17:48:05 UTC"
+"766793","TC268","Military buildings - Troop List (Unlocked)","Can the use train Troops that are unlocked?","1. From City view, click on the Barracks, Archery Range, Stable, Siege Workshop 
+2. Click on a type of troop that is unlocked.
+3. Adjust the number of Troops you wish to train.
+4. Click on ""Train"".","After step 2 the user should be able to see the information about that troop.
+After step 3 you will see the amount of resources that will be required. If you do not have enough resources, you should not be able to Train.
+After step 4 the timer bar will start and the power will increase.","2015-06-02 17:52:33 UTC","2015-06-02 17:52:33 UTC"
+"766794","TC269","Military buildings - Troop List (Locked)","Can the user see information or train troops from a troop selection that is currently locked?","1. From City view, click on the Barracks, Archery Range, Stable, Siege Workshop 
+2. Click on a type of troop that is locked.","The user should receive a popup message stating that the unit will need to be researched at the Academy.","2015-06-02 17:54:47 UTC","2015-06-02 17:54:47 UTC"
+"766795","TC270","Academy - More Information","Can the user see more information about the academy?","1. From City view, click on an Academy
+2. Click on ""More Information"".","The user should see the current level of the library highlighted and the rewards for upgrading.","2015-06-02 18:01:43 UTC","2015-06-02 18:01:43 UTC"
+"766796","TC271","Academy - Tech Menu","Can the user see the list of items that they can research?","1. From City view, click on an Academy 
+2. Click on any category","The user should see a list of items related to that category in the tech list that they can research.","2015-06-02 18:03:35 UTC","2015-06-02 18:03:35 UTC"
+"766798","TC272","Academy - Research page","Can the user commence research on an item?","1. From City view, click on an Academy 
+2. Click on any category
+3. Click on an item in the tech list to research.
+4. Scroll to the bottom and click ""Research""","If the user has enough resources the countdown timer will commence. Otherwise the Research button should be disabled if there are not enough resources.","2015-06-02 18:05:45 UTC","2015-06-02 18:05:45 UTC"
+"766800","TC273","House - More Information","Can the user see more information about house upgrades?","1. From City view, click on a House.
+2. Click on ""More Information"".","The user should be able to see the gold capacity as the building levels increase.","2015-06-02 18:13:32 UTC","2015-06-02 18:13:32 UTC"
+"766802","TC274","House - Get Gold","Can the user get more Gold from the House page?","1. From City view, click on a House. 
+2. Click on ""Get Gold""","The user should be taken to the item store to buy more Gold.","2015-06-02 18:14:39 UTC","2015-06-02 18:14:39 UTC"
+"766803","TC275","Tavern - More information","Can the user see more information about the levels for the Tavern?","1. From City view, click on a Tavern.
+2. Click on ""More Information""","The user should be able to see how many spies they can have for each building level.","2015-06-02 18:16:47 UTC","2015-06-02 18:16:47 UTC"
+"766805","TC276","Tavern - Recruit Spies","Can the user recruit more spies?","1. From City view, click on a Tavern. 
+2. Ensure you have at least 500 stone
+3. Click on ""Recruit""","The number of ""Spies available"" should increase by 1.","2015-06-02 18:18:56 UTC","2015-06-02 18:18:56 UTC"
+"766813","TC277","Hospital - More Information","Can the user see how much the heal capacity increases as the Hospital levels up.","1. From City view, click on the Hospital
+2. Click ""Capacity""
+3. Click on ""More Information""","The user should see the level that the Hospital is currently at highlighted.","2015-06-02 18:33:04 UTC","2015-06-02 18:33:04 UTC"
+"766817","TC278","Hospital - Heal","Can the user heal their Troops?","1. Ensure that you have some injured troops.
+2. From City view, click on the Hospital 
+3. Click ""Queue All"" 
+4. Click ""Heal Now""
+5. Check number of injured troops
+6. Click ""Heal Now""","After step 3 ALL injured troops should be lined up for healing.
+After step 4 the timer should begin and troops will heal
+After step 5 the number of injured troops should have decreased
+At step 6, if there are no troops to be healed, this button should be disabled.","2015-06-02 18:39:56 UTC","2015-06-02 18:39:56 UTC"
+"767063","TC279","Embassy - Capacity","Can the user see the capacity of the Embassy?","1. From City view, click on the Embassy.","The user should be able to see the ""Capacity per Ally"" limit.","2015-06-03 07:23:21 UTC","2015-06-03 07:23:21 UTC"
+"767064","TC280","Embassy - Information","Can the user see the upgrade rewards for the Embassy?","1. From City view, click on the Embassy..
+2. Click ""Capacity per Ally""","The user should see that current level of the Embassy highlighted with the capacity allowance for each level.","2015-06-03 07:26:03 UTC","2015-06-03 07:26:03 UTC"
+"767080","TC281","Embassy - Reinforcements","Can the user see reinforcements sent from an Ally?","1. From City view, click on the Embassy.","The user should see details of who the reinforcements are from, how many troops.","2015-06-03 07:34:45 UTC","2015-06-13 06:28:44 UTC"
+"767373","TC282","Watchtower - More information","Can the user see the rewards for upgrading the Watchtower?","1. From Map View click on a Watchtower
+2. Click ""Watchtower Reward Info""","The user should see the rewards for each level of that particular Watchtower. The current level should be highlighted.","2015-06-03 12:14:21 UTC","2015-06-13 06:29:37 UTC"
+"767426","TC283","Watchtower - Incoming Attacks","Can the user see information regarding income attacks?","1. From Map View click on a Watchtower","Depending on the level of the Watchtower, the correct information should show under Income Attacks.","2015-06-03 12:17:45 UTC","2015-06-03 12:17:45 UTC"
+"767428","TC284","Watchtower - Incoming Resources/Trades","Can the user see details of incoming trades and resources?","1. From City View click on a Watchtower","Depending on the level of the Watchtower, the correct information should show under Income Reinforcements and Trades.","2015-06-03 12:18:51 UTC","2015-07-15 12:17:14 UTC"
+"767429","TC285","Rally Point - March Capacity","Can the user see the level required for the Rally Point to increase the march capacity?","1. From Map View click on the Rally point
+2. Click ""March capacity""","The user should see the march capacity for each level of that particular Rally Point. The current level should be highlighted","2015-06-03 12:22:24 UTC","2015-06-03 12:22:24 UTC"
+"767439","TC286","Rally Point - Attack - Info","Can the user see information about current attacks?","1. Go to Map View and send your Troops on an attack to another City.
+2. Go back to City View and click ""Rally Point""
+3. Click ""Troops""
+4. Click ""Speed Up""","After point 2, the user should see details of the current Attack.
+After point 3, the user should be able to see which Troops and how many have been sent on that Attack.
+After point 4, the user should be taken to the item store to purchase or use Speed Ups.","2015-06-03 12:29:22 UTC","2015-06-03 12:29:22 UTC"
+"767440","TC287","Rally Point - Reinforcing","Can the user see information about Troops sent as reinforcements?","1. Go back to City View and click ""Rally Point"" 
+2. Click ""Troops"" 
+3. Click ""Speed Up""
+4. Click ""Go Home""
+5.""Yes""","After point 2, the user should be able to see which Troops and how many have been sent as reinforcements.
+After point 3,  the user should be taken to the item store to purchase or use Speed Ups.
+After point 4&5, The user should be given a dialogue asking to pull back Troops.","2015-06-03 12:34:45 UTC","2015-06-03 12:34:45 UTC"
+"767442","TC288","Market - More Information","Can the user see the rewards for upgrading the Market?","1. From City View, click on the Market.
+2. Click ""More Information""","The user should be able to see the current level of the market highlighted and the rewards for upgrading.","2015-06-03 12:40:53 UTC","2015-06-03 12:40:53 UTC"
+"768283","TC293","Market - Sending resources","Can the user send resources to Alliance members?","1. From City View, click on the Market. 
+2. Click ""Send"" next to the member you wish to send resources to.
+3. On the Send Resources page, adjust the amount to send.
+4. Click ""Send Now""","After step 1, the user should see the Send Resources page.
+During step 3, the user should only be able to send an amount of resources that is below the capacity for that level. The tax for that level should also be showing too.
+After step 4 the resources should be sent on their way and the timer will begin.","2015-06-04 06:54:57 UTC","2015-06-04 06:54:57 UTC"
+"768285","TC294","Market - Receiving resources","Can the user receive resources from an Alliance member?","1. On Player B's City View, click on the Market. 
+2. Click ""Send"" next to Player A to send resources to. 
+3. Focus on Player A's device.","Resources should be sent.","2015-06-04 07:01:15 UTC","2015-10-28 19:01:56 UTC"
+"768286","TC295","Blacksmith - More Information","Can the user see more information about the rewards for upgrading the Blacksmiths?","1. From City View, click on the Blacksmith
+2. Click ""More Information""","The user should see what research items become available for each level upgrade.","2015-06-04 07:03:41 UTC","2015-06-04 07:03:41 UTC"
+"768287","TC296","Blacksmith - Current and Next Level","Can the user see what the current and next military/combat research is available?","1. From City View, click on the Blacksmith","The user should see the current level under ""This Level"" and the next rewards under ""Next Level"".","2015-06-04 07:07:32 UTC","2015-06-04 07:07:32 UTC"
+"768288","TC297","Blacksmith - Academy cross-check","Checking the integrity of Blacksmith Level vs. Military/Combat available in the Academy.","1. From City view, check the level of your Blacksmith
+2. Go back to City view
+3. Click on the Academy
+4. Click on ""Combat""
+5. Click on ""Infantry Attack""
+6. Upgrade until the ""Infantry Attack"" level you matches the level of the Blacksmith.","The user should no longer be able to upgrade ""Infantry Attack"" until the Blacksmith is updated.","2015-06-04 07:17:12 UTC","2015-06-04 07:17:12 UTC"
+"768289","TC298","Storehouse - More Information","Can the user see more information about the rewards for upgrading the Storehouse?","1. From City View, click on the Storehouse
+2. Click ""More Information""","The user should see what research items become available for each level upgrade.","2015-06-04 07:19:25 UTC","2015-06-04 07:19:25 UTC"
+"768290","TC299","Storehouse - Protected Resources","Can the user see how many of each resources can be protected from an enemy raid?","1. From City View, click on the Storehouse","Under ""Resources Protected"" figures should show the amount that would be protected.","2015-06-04 07:21:45 UTC","2015-06-04 07:21:45 UTC"
