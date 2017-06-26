@@ -54,7 +54,9 @@ Any contributions are more than welcome! If you do make improvements to it, reme
 
 #### Contributors
 
-* Shankar Nathan (shankqr@gmail.com) (me)
+* Shankar Nathan - Programming (shankqr@gmail.com) (me)
+* Shikin Himzal - Artwork and Design (shikqn@gmail.com)
+* Tom Griffiths - Testing and Writing (griffithstechservices@gmail.com)
 
 
 ## Licence
