@@ -3,6 +3,8 @@
 I have spent 4 years of my life and a significant amount of money into completing this game and I hope you enjoy it.
 For those of you wondering what a 4x strategy game is, this article is a good read explaining what it is and why it's awesome: https://bothgunsblazingblog.wordpress.com/2016/12/14/game-of-war-4x-games-and-the-future-of-mobile-mid-core/?
 
+![1](https://user-images.githubusercontent.com/3216424/27570817-a0fc0ba8-5b33-11e7-9f73-be8955f39324.jpeg) ![2](https://user-images.githubusercontent.com/3216424/27570818-a0fecd8e-5b33-11e7-973c-fff2c348f67d.jpeg) ![3](https://user-images.githubusercontent.com/3216424/27570816-a0f9f5de-5b33-11e7-8759-e1071f5a4a22.jpeg)
+
 Here are my goals for open sourcing this game:
 
 * Community driven game, where everyone can decide what features to add
