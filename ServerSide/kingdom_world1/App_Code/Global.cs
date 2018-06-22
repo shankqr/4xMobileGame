@@ -18,7 +18,7 @@ public static class Global
 	{
 		get
         {
-            return @"Server=(local); Database=kingdom_world1; User ID=sa; Password=password123";
+            return @"Server=(local); Database=kingdom_world1; User ID=sa; Password=Abcd1234";
         }
 	}
     

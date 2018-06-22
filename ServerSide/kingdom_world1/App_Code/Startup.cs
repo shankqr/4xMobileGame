@@ -12,7 +12,7 @@ public class Startup
         app.MapSignalR();
 
         GlobalConfiguration.Configuration
-                .UseSqlServerStorage(@"Server=(local); Database=Hangfire; User ID=sa; Password=Sp1d3rm@n12");
+                .UseSqlServerStorage(@"Server=(local); Database=Hangfire; User ID=sa; Password=Abcd1234");
 
         app.UseHangfireDashboard();
         app.UseHangfireServer();

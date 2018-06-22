@@ -22,7 +22,7 @@ public class MainEngine
 
     private string GetConnectionString()
     {
-        return @"Server=(local); Database=tapfantasy; User ID=sa; Password=Sp1d3rm@n12";
+        return @"Server=(local); Database=tapfantasy; User ID=sa; Password=Abcd1234";
     }
 
     [WebGet(UriTemplate = "CurrentTime")]
