@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "832E73116542A771EB5972FF79118541"
+               BlueprintIdentifier = "90ED4141F4ACD83A9898C4056E887E1C"
                BuildableName = "SignalR_ObjC.framework"
                BlueprintName = "SignalR-ObjC"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "832E73116542A771EB5972FF79118541"
+            BlueprintIdentifier = "90ED4141F4ACD83A9898C4056E887E1C"
             BuildableName = "SignalR_ObjC.framework"
             BlueprintName = "SignalR-ObjC"
             ReferencedContainer = "container:Pods.xcodeproj">
