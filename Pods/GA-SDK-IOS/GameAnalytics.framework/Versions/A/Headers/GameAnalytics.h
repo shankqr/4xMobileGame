@@ -208,6 +208,14 @@ typedef enum GAErrorSeverity : NSInteger {
 + (void)configureUserId:(NSString *)userId;
 
 
+/* @IF WRAPPER */
+
+/* 
+ Used ONLY by GameAnalytics wrapper SDK's (for example Unity).
+ Never call this manually!
+ */
++ (void)configureSdkVersion:(NSString *)wrapperSdkVersion;
+/* @ENDIF WRAPPER */
 
 /*!
  @method

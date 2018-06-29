@@ -149,13 +149,23 @@
     NSString *b_image = [NSString stringWithFormat:@"building%@_3", self.building_id];
     NSDictionary *buildingLevelDict = [Globals.i getBuildingLevel:self.building_id level:self.level];
     
+    NSLog(@"%@", buildingLevelDict);
+    NSLog(@"%@", self.building_id);
+    NSLog(@"%@", [@(self.level) stringValue]);
+    
     float boost_c = ([Globals.i.wsBaseDict[@"boost_build"] floatValue] / 100.0f) + 1.0f;
     self.buildtime = [buildingLevelDict[@"time"] floatValue] / boost_c;
     NSString *build_time = [Globals.i getCountdownString:self.buildtime];
     NSString *str_boost = [NSString stringWithFormat:@"%@(+%@%%)", build_time, Globals.i.wsBaseDict[@"boost_build"]];
     
+    NSLog(@"%@", build_time);
+    NSLog(@"%@", str_boost);
+    
     NSString *ori_time = [Globals.i getCountdownString:[buildingLevelDict[@"time"] integerValue]];
     NSString *max_per_base = [Globals.i getBuildingDict:self.building_id][@"max_per_base"];
+    
+    NSLog(@"%@", ori_time);
+    NSLog(@"%@", max_per_base);
     
     float bar1 = (float)self.level/self.max_building_level;
     
@@ -176,8 +186,13 @@
     NSString *building_name = [Globals.i getBuildingDict:self.building_id][@"building_name"];
     NSString *building_level = [NSString stringWithFormat:@"(Level %@)", [@(self.level) stringValue]];
 
-	NSDictionary *row101 = @{@"n1_width": @"60", @"i1": b_image, @"i1_aspect": @"1", @"p1": @(bar1), @"p1_text": p1_text, @"r1_align": @"1", @"r1": @"Time Required:", @"r2_align": @"1", @"r2": ori_time, @"c1_align": @"1", @"c1": @"Time Boost:", @"c2_align": @"1", @"c2": str_boost, @"d1": button_title, @"d1_button": d1_button, @"r1_color": @"0", @"r2_color": @"0", @"c1_color": @"0", @"c2_color": @"0", @"nofooter": @"1",@"extra_cell_height":@"10"};
+    NSLog(@"%@", building_name);
+    NSLog(@"%@", building_level);
+    
+	NSDictionary *row101 = @{@"n1_width": @"60", @"i1": b_image, @"i1_aspect": @"1", @"p1": @(bar1), @"p1_text": p1_text, @"r1_align": @"1", @"r1": @"Time Required:", @"r2_align": @"1", @"r2": ori_time, @"c1_align": @"1", @"c1": @"Time Boost:", @"c2_align": @"1", @"c2": str_boost, @"d1": button_title, @"d1_button": d1_button, @"r1_color": @"0", @"r2_color": @"0", @"c1_color": @"0", @"c2_color": @"0", @"nofooter": @"1",@"extra_cell_height":@"100"};
 	
+    NSLog(@"%@", row101);
+    
     NSString *b1 = NSLocalizedString(@"Deconstruct", nil);
     NSString *b1_button = @"2";
     NSString *d1 = NSLocalizedString(@"Upgrade", nil);
@@ -202,7 +217,11 @@
         row101 = @{@"n1_width": @"60", @"i1": b_image, @"i1_aspect": @"1", @"p1": @(bar1), @"p1_text": p1_text, @"r1_align": @"2", @"r1": building_name, @"r2_align": @"1", @"r2": @" ", @"c2": @" ", @"c1": building_level, @"b1": b1, @"b1_button": b1_button, @"d1": d1, @"d1_button": d1_button_upgrade, @"r1_color": @"0", @"r2_color": @"0", @"c1_color": @"0", @"c2_color": @"0", @"nofooter": @"1",@"extra_cell_height":@"10"};
     }
     
-    NSArray *rows1 = @[row101];
+    //NSLog(@"%@", row101);
+    
+    NSDictionary *row102 = @{@"r1": NSLocalizedString(@"Comment", nil), @"c1": NSLocalizedString(@"Members", nil), @"e1": NSLocalizedString(@"Stats", nil), @"r1_button": @"2", @"c1_button": @"2", @"e1_button": @"2", @"c1_ratio": @"3", @"nofooter": @"1"};
+    
+    NSArray *rows1 = @[row101, row102];
     
     self.ui_cells_array = [@[rows1] mutableCopy];
 	

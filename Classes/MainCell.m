@@ -94,17 +94,18 @@
 
 - (void)createButtons
 {
-    [self addPosButton:NSLocalizedString(@"Help", nil) tag:1 imageDefault:@"btn_howto"];
-    [self addPosButton:NSLocalizedString(@"Feedback", nil) tag:2 imageDefault:@"btn_feedback"];
-    [self addPosButton:NSLocalizedString(@"Profile", nil) tag:3 imageDefault:@"btn_profile"];
-    [self addPosButton:NSLocalizedString(@"Invite", nil) tag:4 imageDefault:@"btn_add_friend"];
-	[self addPosButton:NSLocalizedString(@"Hero", nil) tag:5 imageDefault:@"btn_hero"];
-    [self addPosButton:NSLocalizedString(@"Research", nil) tag:6 imageDefault:@"btn_research"];
-	[self addPosButton:NSLocalizedString(@"Marches", nil) tag:7 imageDefault:@"btn_march"];
-    [self addPosButton:NSLocalizedString(@"Search", nil) tag:8 imageDefault:@"btn_search"];
-    [self addPosButton:NSLocalizedString(@"Rankings", nil) tag:9 imageDefault:@"btn_rankings"];
-    [self addPosButton:NSLocalizedString(@"Options", nil) tag:10 imageDefault:@"btn_options"];
+    [self addPosButton:NSLocalizedString(@"Profile", nil) tag:1 imageDefault:@"btn_profile"];
+	[self addPosButton:NSLocalizedString(@"Hero", nil) tag:2 imageDefault:@"btn_hero"];
+    [self addPosButton:NSLocalizedString(@"Research", nil) tag:3 imageDefault:@"btn_research"];
+	[self addPosButton:NSLocalizedString(@"Marches", nil) tag:4 imageDefault:@"btn_march"];
+    [self addPosButton:NSLocalizedString(@"Search", nil) tag:5 imageDefault:@"btn_search"];
+    [self addPosButton:NSLocalizedString(@"Rankings", nil) tag:6 imageDefault:@"btn_rankings"];
+    [self addPosButton:NSLocalizedString(@"Options", nil) tag:7 imageDefault:@"btn_options"];
+    //[self addPosButton:NSLocalizedString(@"Help", nil) tag:8 imageDefault:@"btn_howto"];
+    //[self addPosButton:NSLocalizedString(@"Feedback", nil) tag:9 imageDefault:@"btn_feedback"];
+    //[self addPosButton:NSLocalizedString(@"Invite", nil) tag:10 imageDefault:@"btn_add_friend"];
     
+    /*
     NSString *str_enable_slot = Globals.i.wsSettingsDict[@"enable_slot"];
     if ([str_enable_slot isEqualToString:@"1"])
     {
@@ -128,6 +129,7 @@
     {
         [self addPosButton:NSLocalizedString(@"Logout", nil) tag:14 imageDefault:@"btn_logout"];
     }
+    */
 }
 
 - (UIImage *)resizeImage:(UIImage *)image scaledToSize:(CGSize)newSize
@@ -226,71 +228,69 @@
 	
     if (theTag == 1)
     {
-        [[NSNotificationCenter defaultCenter]
-         postNotificationName:@"ShowHelp"
-         object:self];
-    }
-    else if (theTag == 2)
-    {
-        [[NSNotificationCenter defaultCenter]
-         postNotificationName:@"ShowFeedback"
-         object:self];
-    }
-    else if (theTag == 3)
-    {
         NSMutableDictionary* userInfo = [NSMutableDictionary dictionary];
         [userInfo setObject:Globals.i.wsWorldProfileDict[@"profile_id"] forKey:@"profile_id"];
         [[NSNotificationCenter defaultCenter] postNotificationName:@"ShowProfile"
                                                             object:self
                                                           userInfo:userInfo];
     }
-    else if (theTag == 4)
-    {
-        [[NSNotificationCenter defaultCenter]
-         postNotificationName:@"ShowInvite"
-         object:self];
-    }
-    else if (theTag == 5)
+    else if (theTag == 2)
     {
         [[NSNotificationCenter defaultCenter]
          postNotificationName:@"ShowHero"
          object:self];
     }
-    else if (theTag == 6)
+    else if (theTag == 3)
     {
         [[NSNotificationCenter defaultCenter]
          postNotificationName:@"ShowResearch"
          object:self];
     }
-    else if (theTag == 7)
+    else if (theTag == 4)
     {
         [[NSNotificationCenter defaultCenter]
          postNotificationName:@"ShowMarches"
          object:self];
     }
-    else if (theTag == 8)
+    else if (theTag == 5)
     {
         [[NSNotificationCenter defaultCenter]
          postNotificationName:@"ShowSearch"
          object:self];
     }
-    else if (theTag == 9)
+    else if (theTag == 6)
     {
         [[NSNotificationCenter defaultCenter]
          postNotificationName:@"ShowRanking"
          object:self];
     }
-    else if (theTag == 10)
+    else if (theTag == 7)
     {
         [[NSNotificationCenter defaultCenter]
          postNotificationName:@"ShowOptions"
          object:self];
     }
-    else if (theTag == 11)
+    else if (theTag == 8)
     {
         [[NSNotificationCenter defaultCenter]
-         postNotificationName:@"ShowSlots"
+         postNotificationName:@"ShowHelp"
          object:self];
+    }
+    else if (theTag == 9)
+    {
+        [[NSNotificationCenter defaultCenter]
+         postNotificationName:@"ShowFeedback"
+         object:self];
+    }
+    else if (theTag == 10)
+    {
+        [[NSNotificationCenter defaultCenter]
+         postNotificationName:@"ShowInvite"
+         object:self];
+    }
+    else if (theTag == 11)
+    {
+        //[[NSNotificationCenter defaultCenter] postNotificationName:@"ShowSlots" object:self];
     }
     else if (theTag == 12)
     {

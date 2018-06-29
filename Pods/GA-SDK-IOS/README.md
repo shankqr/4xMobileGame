@@ -1,17 +1,58 @@
+[![CocoaPods](https://img.shields.io/cocoapods/v/GA-SDK-IOS.svg)](https://cocoapods.org/pods/GA-SDK-IOS)
+[![CocoaPods](https://img.shields.io/cocoapods/dt/GA-SDK-IOS.svg?label=pod%20downloads)](https://cocoapods.org/pods/GA-SDK-IOS)
+
 GA-SDK-IOS
 ==========
 
 GameAnalytics native iOS SDK.
 
-Documentation in the [wiki](https://github.com/GameAnalytics/GA-SDK-IOS/wiki).
+Documentation can be found [here](https://gameanalytics.com/docs/ios-sdk).
 
 > :information_source:
-> Requirements:<br/>
-> **iOS:** iOS 6.x and up
+> Requirements: 
+> 
+> **iOS:** iOS 6.x and up   
+>   
+> **Build size:**   
+> Note that download size differ from the actual build size as it includes several architectures inside it. The SDK build size is only around **242Kb** (armv7) / **259Kb** (armv8).
 
 Changelog
 ---------
 <!--(CHANGELOG_TOP)-->
+**2.2.18**
+* added custom dimensions to design and error events
+
+**2.2.17**
+* fixed not allowing to add events when session is not started
+* fixed session length bug
+
+**2.2.16**
+* added 'construct' to version validator
+
+**2.2.15**
+* exposed configureSdkVersion in framework header
+
+**2.2.14**
+* added 'cordova' value to version validator
+
+**2.2.13**
+* 'install' field added to session start events when called for the first time
+
+**2.2.12**
+* added 'nativescript' value to version validator
+
+**2.2.11**
+* prevent session_num and transaction_num from resetting if app is killed
+
+**2.2.10**
+* bug fix for end session when using manual session handling
+
+**2.2.9**
+* session length precision improvement
+
+**2.2.8**
+* version validator updated with gamemaker
+
 **2.2.7**
 * added bundle_id, app version and app build tracking
 

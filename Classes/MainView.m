@@ -33,7 +33,7 @@
 #import "ChatView.h"
 #import "LoginView.h"
 #import "BuyView.h"
-#import "SponsorsView.h"
+//#import "SponsorsView.h"
 #import "LoadingView.h"
 #import "UIView+Glow.h"
 #import "QuestView.h"
@@ -57,7 +57,7 @@
 #import "ResearchView.h"
 #import "MarchesView.h"
 #import "OptionsView.h"
-#import "SlotsView.h"
+//#import "SlotsView.h"
 #import "HeroView.h"
 #import "HeroSkills.h"
 #import "BuildHeader.h"
@@ -103,7 +103,7 @@ MFMailComposeViewControllerDelegate, UIScrollViewDelegate, SSZipArchiveDelegate,
 @property (nonatomic, strong) ChatView *chatView;
 @property (nonatomic, strong) LoginView *loginView;
 @property (nonatomic, strong) BuyView *buyView;
-@property (nonatomic, strong) SponsorsView *sponsorsView;
+//@property (nonatomic, strong) SponsorsView *sponsorsView;
 @property (nonatomic, strong) LoadingView *loadingView;
 @property (nonatomic, strong) CraftView *craftView;
 @property (nonatomic, strong) TavernView *tavernView;
@@ -127,7 +127,7 @@ MFMailComposeViewControllerDelegate, UIScrollViewDelegate, SSZipArchiveDelegate,
 @property (nonatomic, strong) ResearchView *researchView;
 @property (nonatomic, strong) MarchesView *marchesView;
 @property (nonatomic, strong) OptionsView *optionsView;
-@property (nonatomic, strong) SlotsView *slotsView;
+//@property (nonatomic, strong) SlotsView *slotsView;
 @property (nonatomic, strong) ProgressView *pvHeroXp;
 @property (nonatomic, strong) BuildHeader *buildHeader;
 @property (nonatomic, strong) BuildView *buildView;
@@ -2646,13 +2646,13 @@ MFMailComposeViewControllerDelegate, UIScrollViewDelegate, SSZipArchiveDelegate,
         [Globals.i playMusicLoading];
         
         //Show sponsor screen for 5 seconds
-        [self showSponsors];
-        [self performSelector:@selector(removeSponsors) withObject:self afterDelay:5.0];
+        //[self showSponsors];
+        //[self performSelector:@selector(removeSponsors) withObject:self afterDelay:5.0];
         
-        //[self gotoLogin:YES]; //Comment this line if showing sponsor above
+        [self gotoLogin:YES]; //Comment this line if showing sponsor above
     }
 }
-
+/*
 - (void)showSponsors
 {
     if (self.sponsorsView == nil)
@@ -2673,7 +2673,7 @@ MFMailComposeViewControllerDelegate, UIScrollViewDelegate, SSZipArchiveDelegate,
     
     [self gotoLogin:YES];
 }
-
+*/
 - (void)gotoLogin:(BOOL)autoLogin //Open the Login View
 {
     if (!autoLogin)
@@ -2844,6 +2844,8 @@ MFMailComposeViewControllerDelegate, UIScrollViewDelegate, SSZipArchiveDelegate,
                       
                       [self removeLoading];
                       
+                      //TODO: Turn on tutorial and sales offer
+                      /*
                       if ([Globals.i is_tutorial_on])
                       {
                           [Globals.i invokeTutorial];
@@ -2852,6 +2854,7 @@ MFMailComposeViewControllerDelegate, UIScrollViewDelegate, SSZipArchiveDelegate,
                       {
                           [self showSalesLoading];
                       }
+                      */
                       
                       [Globals.i playMusicBackground];
                       
@@ -4130,11 +4133,11 @@ MFMailComposeViewControllerDelegate, UIScrollViewDelegate, SSZipArchiveDelegate,
 
 - (void)showSlots
 {
-    if (self.slotsView == nil)
-    {
-        self.slotsView = [[SlotsView alloc] initWithNibName:@"SlotsView" bundle:nil];
-    }
-    [UIManager.i showTemplate:@[self.slotsView] :NSLocalizedString(@"Slots", nil) :0];
+    //if (self.slotsView == nil)
+    //{
+    //    self.slotsView = [[SlotsView alloc] initWithNibName:@"SlotsView" bundle:nil];
+    //}
+    //[UIManager.i showTemplate:@[self.slotsView] :NSLocalizedString(@"Slots", nil) :0];
 }
 
 - (void)showMore

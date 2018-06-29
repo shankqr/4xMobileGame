@@ -20,19 +20,19 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - Crashlytics (3.8.3):
-    - Fabric (~> 1.6.3)
-  - Fabric (1.6.11)
-  - GA-SDK-IOS (2.2.7)
-  - Helpshift (5.9.1)
-  - OBShapedButton (1.0.2)
+  - Crashlytics (3.10.3):
+    - Fabric (~> 1.7.8)
+  - Fabric (1.7.8)
+  - GA-SDK-IOS (2.2.18)
+  - Helpshift (7.0.1)
+  - OBShapedButton (1.1.0)
   - SignalR-ObjC (2.0.2):
     - SignalR-ObjC/Core (= 2.0.2)
   - SignalR-ObjC/Core (2.0.2):
     - AFNetworking (~> 2.0)
     - SocketRocket (~> 0.4)
   - SocketRocket (0.5.1)
-  - SSZipArchive (1.7)
+  - SSZipArchive (2.1.3)
 
 DEPENDENCIES:
   - Crashlytics
@@ -43,17 +43,29 @@ DEPENDENCIES:
   - SignalR-ObjC
   - SSZipArchive
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Crashlytics
+    - Fabric
+    - GA-SDK-IOS
+    - Helpshift
+    - OBShapedButton
+    - SignalR-ObjC
+    - SocketRocket
+    - SSZipArchive
+
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
-  Crashlytics: 2b6dbe138a42395577cfa73dfa1aa7248cadf39e
-  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
-  GA-SDK-IOS: a19315baa1942f7dad543215d4263fe1b00b07e8
-  Helpshift: 7697d455edc1539f3cd5975fb3eafd4d2269b89b
-  OBShapedButton: ae2ae40dd98b934d4f76be1984c49db73893ada9
+  Crashlytics: 2aea305161a2122492698c75af27f2b98aa49a25
+  Fabric: fba4684a95df789565b0b27fc5b6e68f1755af32
+  GA-SDK-IOS: 2fe41f7279f9647d4a76fd4acfe26c67b887375c
+  Helpshift: faef3e71f6dc388ebd23d5c6ae9d15f887a71fd6
+  OBShapedButton: 90c414c04454ca25f067deaa91393c221b8721cf
   SignalR-ObjC: 3913aa201f436cf21226e0016ca6c7e94265921a
   SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
-  SSZipArchive: 63f8e11cfcc33e03e4cd666b4359ea8bd6facd0c
+  SSZipArchive: 51a800ebb77f95a8329b6ced1faaff394b47f509
 
 PODFILE CHECKSUM: 520d290907abaf7add646c2851f82684e27111b5
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.5.3
