@@ -917,6 +917,8 @@
     NSString *wsurl = [NSString stringWithFormat:@"/%@/%@/%@/%@",
                        Globals.i.wsWorldProfileDict[@"uid"], resource_type, base_id, item_id];
     
+    NSLog(@"%@", wsurl);
+    
     [Globals.i getSpLoading:service_name :wsurl :^(BOOL success, NSData *data)
      {
          if (success)

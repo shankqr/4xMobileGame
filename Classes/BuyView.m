@@ -32,11 +32,11 @@
 - (void)updateView
 {
     NSDictionary *row0 = @{@"h1": NSLocalizedString(@"Diamonds for Sale!", nil)};
-    NSDictionary *row1 = @{@"1": @"fund1", @"2": @"com.game.kw.fund1", @"3": @"6145148", @"4": @"750", @"r1": @"750 Diamonds", @"r2": @"USD $4.99", @"i1": @"icon_currency2", @"c1_ratio": @"3", @"c1": NSLocalizedString(@"Get", nil), @"c1_button": @"2"};
-    NSDictionary *row2 = @{@"1": @"fund2", @"2": @"com.game.kw.fund2", @"3": @"9425144", @"4": @"1500", @"r1": @"1500 Diamonds", @"r2": @"USD $9.99", @"i1": @"icon_currency2", @"c1_ratio": @"3", @"c1": NSLocalizedString(@"Get", nil), @"c1_button": @"2"};
-    NSDictionary *row3 = @{@"1": @"fund3", @"2": @"com.game.kw.fund3", @"3": @"1736703", @"4": @"3000", @"r1": @"3000 Diamonds", @"r2": @"USD $19.99", @"i1": @"icon_currency2", @"c1_ratio": @"3", @"c1": NSLocalizedString(@"Get", nil), @"c1_button": @"2"};
-    NSDictionary *row4 = @{@"1": @"fund4", @"2": @"com.game.kw.fund4", @"3": @"6597164", @"4": @"8650", @"r1": @"7500 Diamonds", @"r2": @"USD $49.99 (+1150 FREE)", @"b1": @"(Most Popular!)", @"i1": @"icon_currency2", @"c1_ratio": @"3", @"c1": NSLocalizedString(@"Get", nil), @"c1_button": @"2"};
-    NSDictionary *row5 = @{@"1": @"fund5", @"2": @"com.game.kw.fund5", @"3": @"2792559", @"4": @"18000", @"r1": @"15000 Diamonds", @"r2": @"USD $99.99 (+3000 FREE)", @"b1": @"(Best Value!)", @"i1": @"icon_currency2", @"c1_ratio": @"3", @"c1": NSLocalizedString(@"Get", nil), @"c1_button": @"2"};
+    NSDictionary *row1 = @{@"1": @"fund1", @"2": @"fund1", @"3": @"6145148", @"4": @"750", @"r1": @"750 Diamonds", @"r2": @"USD $4.99", @"i1": @"icon_currency2", @"c1_ratio": @"3", @"c1": NSLocalizedString(@"Get", nil), @"c1_button": @"2"};
+    NSDictionary *row2 = @{@"1": @"fund2", @"2": @"fund2", @"3": @"9425144", @"4": @"1500", @"r1": @"1500 Diamonds", @"r2": @"USD $9.99", @"i1": @"icon_currency2", @"c1_ratio": @"3", @"c1": NSLocalizedString(@"Get", nil), @"c1_button": @"2"};
+    NSDictionary *row3 = @{@"1": @"fund3", @"2": @"fund3", @"3": @"1736703", @"4": @"3000", @"r1": @"3000 Diamonds", @"r2": @"USD $19.99", @"i1": @"icon_currency2", @"c1_ratio": @"3", @"c1": NSLocalizedString(@"Get", nil), @"c1_button": @"2"};
+    NSDictionary *row4 = @{@"1": @"fund4", @"2": @"fund4", @"3": @"6597164", @"4": @"8650", @"r1": @"7500 Diamonds", @"r2": @"USD $49.99 (+1150 FREE)", @"b1": @"(Most Popular!)", @"i1": @"icon_currency2", @"c1_ratio": @"3", @"c1": NSLocalizedString(@"Get", nil), @"c1_button": @"2"};
+    NSDictionary *row5 = @{@"1": @"fund5", @"2": @"fund5", @"3": @"2792559", @"4": @"18000", @"r1": @"15000 Diamonds", @"r2": @"USD $99.99 (+3000 FREE)", @"b1": @"(Best Value!)", @"i1": @"icon_currency2", @"c1_ratio": @"3", @"c1": NSLocalizedString(@"Get", nil), @"c1_button": @"2"};
     
     NSArray *rows1 = @[row0, row1, row2, row3, row4, row5];
     

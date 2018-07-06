@@ -1935,7 +1935,6 @@
 		90CF717718CEEDA2006BEBD4 /* ResearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CF717618CEEDA2006BEBD4 /* ResearchView.m */; };
 		90CF717B18CEEDCD006BEBD4 /* TrainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CF717A18CEEDCD006BEBD4 /* TrainView.m */; };
 		90D834401A1AE80800065FE6 /* TroopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D8343F1A1AE80800065FE6 /* TroopView.m */; };
-		90D95AA21AC7B36C00AAD359 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D95AA11AC7B36C00AAD359 /* GameKit.framework */; };
 		90DBE4EF1C43C650009B02C1 /* TTTOrdinalNumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DBE4EE1C43C650009B02C1 /* TTTOrdinalNumberFormatter.m */; };
 		90E0A638197BC0460082CA1E /* SalesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E0A637197BC0460082CA1E /* SalesView.m */; };
 		90E9FC561750A1D500DDD9EB /* ReportDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E9FC551750A1D500DDD9EB /* ReportDetail.m */; };
@@ -4043,7 +4042,6 @@
 				90CEE173189F63EE008EB2B4 /* SystemConfiguration.framework in Frameworks */,
 				903D0E09186A766400D396A7 /* QuartzCore.framework in Frameworks */,
 				903D0E07186A75F900D396A7 /* AVFoundation.framework in Frameworks */,
-				90D95AA21AC7B36C00AAD359 /* GameKit.framework in Frameworks */,
 				902B8BE813817216006DAE27 /* UIKit.framework in Frameworks */,
 				902B8BEA13817223006DAE27 /* Foundation.framework in Frameworks */,
 				902B8C01138173DD006DAE27 /* StoreKit.framework in Frameworks */,
@@ -6900,6 +6898,9 @@
 							com.apple.GameCenter = {
 								enabled = 1;
 							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
 							com.apple.Push = {
 								enabled = 0;
 							};
@@ -9040,7 +9041,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Elsayed Mohamed (RE5XW8ZLKQ)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Elsayed Mohamed (RE5XW8ZLKQ)";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = YES;
@@ -9085,12 +9086,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Elsayed Mohamed (RE5XW8ZLKQ)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Elsayed Mohamed (5FRLKJRA2B)";
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = YES;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5FRLKJRA2B;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -9107,8 +9108,8 @@
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.game.kw;
 				PRODUCT_NAME = Kingdom;
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "f590efde-ae60-417c-a43d-885473660c49";
+				PROVISIONING_PROFILE_SPECIFIER = kw_tatar_dist;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Kingdom-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;

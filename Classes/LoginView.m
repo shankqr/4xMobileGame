@@ -213,8 +213,12 @@
     }
     else
     {
-        BOOL password_login = [[NSUserDefaults standardUserDefaults] boolForKey:@"password_login"];
+        //From now on use password login as default (no more GameCenter logins)
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"password_login"];
+        [self.btnPlay setHidden:NO];
         
+        /*
+        BOOL password_login = [[NSUserDefaults standardUserDefaults] boolForKey:@"password_login"];
         if (password_login)
         {
             [self.btnPlay setHidden:NO];
@@ -223,7 +227,7 @@
         {
             [self authenticateLocalPlayer];
         }
-        
+        */
         return NO;
     }
     
