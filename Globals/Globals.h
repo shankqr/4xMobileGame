@@ -104,8 +104,8 @@
 #import "AllianceObject.h"
 
 //Helpshift
-#import "HelpshiftCore.h"
-#import "HelpshiftSupport.h"
+//#import "HelpshiftCore.h"
+//#import "HelpshiftSupport.h"
 
 #define DEBUG NO //TODO: Set to no when release to app store
 

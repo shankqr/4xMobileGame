@@ -23,31 +23,26 @@
 #import "KingdomAppDelegate.h"
 #import "MainView.h"
 #import "Globals.h"
-#import <Fabric/Fabric.h>
-#import <Crashlytics/Crashlytics.h>
-#import <GameAnalytics/GameAnalytics.h>
 
 @implementation KingdomAppDelegate
 
 - (BOOL)application:(UIApplication *)application
 didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [Fabric with:@[[Crashlytics class]]];
-    [Fabric with:@[[GameAnalytics class]]];
+    //[Fabric with:@[[Crashlytics class]]];
+    //[Fabric with:@[[GameAnalytics class]]];
     
     Globals.i.launchFirstTime = @"1"; //Called one time only
     
     // GA
     NSString *game_version = [NSString stringWithFormat:@"release %@", GAME_VERSION];
-    [GameAnalytics configureBuild:game_version];
-    [GameAnalytics configureAvailableResourceCurrencies:@[@"gems", @"gold"]];
-    [GameAnalytics initializeWithGameKey:@"92a07217526763ef42c50a8b66c07908" gameSecret:@"a9acb3c367a4ec80ac0c903371aa87f39d353854"];
+    //[GameAnalytics configureBuild:game_version];
+    //[GameAnalytics configureAvailableResourceCurrencies:@[@"gems", @"gold"]];
+    //[GameAnalytics initializeWithGameKey:@"92a07217526763ef42c50a8b66c07908" gameSecret:@"a9acb3c367a4ec80ac0c903371aa87f39d353854"];
     
     // Helpshift
-    [HelpshiftCore initializeWithProvider:[HelpshiftSupport sharedInstance]];
-    [HelpshiftCore installForApiKey:@"eac10f2aefeea8228aad0e0aa4fa4cbc"
-                         domainName:@"yourdomain.helpshift.com"
-                              appID:@"yourdomain_platform_20150224160258236-6388f7c7df3efd3"];
+    //[HelpshiftCore initializeWithProvider:[HelpshiftSupport sharedInstance]];
+    //[HelpshiftCore installForApiKey:@"eac10f2aefeea8228aad0e0aa4fa4cbc" domainName:@"yourdomain.helpshift.com" appID:@"yourdomain_platform_20150224160258236-6388f7c7df3efd3"];
     
     self.beenSleeping = NO;
 
@@ -69,7 +64,7 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
         NSDictionary *userInfo = [launchOptions objectForKey:UIApplicationLaunchOptionsRemoteNotificationKey];
         if (userInfo != nil && [[userInfo objectForKey:@"origin"] isEqualToString:@"helpshift"])
         {
-            [HelpshiftCore handleRemoteNotification:userInfo withController:self.mainView];
+            //[HelpshiftCore handleRemoteNotification:userInfo withController:self.mainView];
         }
     }
     
@@ -99,7 +94,7 @@ didReceiveLocalNotification:(UILocalNotification *)notification
 {
     if ([[notification.userInfo objectForKey:@"origin"] isEqualToString:@"helpshift"])
     {
-        [HelpshiftCore handleLocalNotification:notification withController:[[UIApplication sharedApplication] keyWindow].rootViewController];
+        //[HelpshiftCore handleLocalNotification:notification withController:[[UIApplication sharedApplication] keyWindow].rootViewController];
     }
 }
 
@@ -108,7 +103,7 @@ didReceiveRemoteNotification:(NSDictionary *)userInfo
 {
     if ([[userInfo objectForKey:@"origin"] isEqualToString:@"helpshift"])
     {
-        [HelpshiftCore handleRemoteNotification:userInfo withController:self.mainView];
+        //[HelpshiftCore handleRemoteNotification:userInfo withController:self.mainView];
     }
 }
 
@@ -120,7 +115,7 @@ didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken
     NSString *s3 = [s2 stringByReplacingOccurrencesOfString:@" " withString:@""];
     [Globals.i setDtoken:s3];
 
-    [HelpshiftCore registerDeviceToken:deviceToken];
+    //[HelpshiftCore registerDeviceToken:deviceToken];
 }
 
 - (void)application:(UIApplication*)application

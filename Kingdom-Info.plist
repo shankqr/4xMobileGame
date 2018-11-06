@@ -20,31 +20,6 @@
 	<string>1.2</string>
 	<key>CFBundleVersion</key>
 	<string>3</string>
-	<key>Fabric</key>
-	<dict>
-		<key>APIKey</key>
-		<string>1762405f7e2aef077bb3dd2f1bd55609e3857e41</string>
-		<key>Kits</key>
-		<array>
-			<dict>
-				<key>KitInfo</key>
-				<dict/>
-				<key>KitName</key>
-				<string>Crashlytics</string>
-			</dict>
-			<dict>
-				<key>KitInfo</key>
-				<dict>
-					<key>api-key</key>
-					<string>78c16d84c2f02fae3bd347a8bf6b8822d5a7f581</string>
-					<key>api-secret</key>
-					<string>a9acb3c367a4ec80ac0c903371aa87f39d353854</string>
-				</dict>
-				<key>KitName</key>
-				<string>GameAnalytics</string>
-			</dict>
-		</array>
-	</dict>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>LSApplicationQueriesSchemes</key>

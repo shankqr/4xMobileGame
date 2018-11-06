@@ -1784,27 +1784,6 @@
 		6CA0DD121D5D8C5300B99964 /* icon_sale1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA0DD0F1D5D8C5300B99964 /* icon_sale1.png */; };
 		6CA0DD131D5D8C5300B99964 /* icon_sale2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA0DD101D5D8C5300B99964 /* icon_sale2.png */; };
 		6CA0DD141D5D8C5300B99964 /* icon_sale3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA0DD111D5D8C5300B99964 /* icon_sale3.png */; };
-		6CA3DB5C1F003A9A000C36D5 /* BadgeStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA3DB301F003A9A000C36D5 /* BadgeStyle.m */; };
-		6CA3DB5D1F003A9A000C36D5 /* CellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA3DB321F003A9A000C36D5 /* CellView.m */; };
-		6CA3DB5E1F003A9A000C36D5 /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA3DB341F003A9A000C36D5 /* Colours.m */; };
-		6CA3DB5F1F003A9A000C36D5 /* CustomBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA3DB361F003A9A000C36D5 /* CustomBadge.m */; };
-		6CA3DB601F003A9A000C36D5 /* DCFineTuneSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA3DB381F003A9A000C36D5 /* DCFineTuneSlider.m */; };
-		6CA3DB611F003A9A000C36D5 /* DialogBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA3DB3A1F003A9A000C36D5 /* DialogBoxView.m */; };
-		6CA3DB621F003A9A000C36D5 /* DynamicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA3DB3C1F003A9A000C36D5 /* DynamicCell.m */; };
-		6CA3DB631F003A9A000C36D5 /* DynamicTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA3DB3E1F003A9A000C36D5 /* DynamicTVC.m */; };
-		6CA3DB651F003A9A000C36D5 /* MarqueeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA3DB411F003A9A000C36D5 /* MarqueeLabel.m */; };
-		6CA3DB661F003A9A000C36D5 /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA3DB431F003A9A000C36D5 /* ProgressView.m */; };
-		6CA3DB671F003A9A000C36D5 /* RowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA3DB451F003A9A000C36D5 /* RowView.m */; };
-		6CA3DB681F003A9A000C36D5 /* TabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA3DB471F003A9A000C36D5 /* TabView.m */; };
-		6CA3DB691F003A9A000C36D5 /* TemplateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA3DB491F003A9A000C36D5 /* TemplateView.m */; };
-		6CA3DB6A1F003A9A000C36D5 /* JCNotificationBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA3DB4C1F003A9A000C36D5 /* JCNotificationBanner.m */; };
-		6CA3DB6B1F003A9A000C36D5 /* JCNotificationBannerPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA3DB4E1F003A9A000C36D5 /* JCNotificationBannerPresenter.m */; };
-		6CA3DB6C1F003A9A000C36D5 /* JCNotificationBannerPresenterSmokeStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA3DB511F003A9A000C36D5 /* JCNotificationBannerPresenterSmokeStyle.m */; };
-		6CA3DB6D1F003A9A000C36D5 /* JCNotificationBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA3DB531F003A9A000C36D5 /* JCNotificationBannerView.m */; };
-		6CA3DB6E1F003A9A000C36D5 /* JCNotificationBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA3DB551F003A9A000C36D5 /* JCNotificationBannerViewController.m */; };
-		6CA3DB6F1F003A9A000C36D5 /* JCNotificationBannerWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA3DB571F003A9A000C36D5 /* JCNotificationBannerWindow.m */; };
-		6CA3DB701F003A9A000C36D5 /* JCNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA3DB591F003A9A000C36D5 /* JCNotificationCenter.m */; };
-		6CA3DB711F003A9A000C36D5 /* UIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA3DB5B1F003A9A000C36D5 /* UIManager.m */; };
 		6CA9B6931E237347009D32E0 /* loader_spin_reverse.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA9B6911E237347009D32E0 /* loader_spin_reverse.png */; };
 		6CA9B6941E237347009D32E0 /* loader_spin.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CA9B6921E237347009D32E0 /* loader_spin.png */; };
 		6CBE5ACF1E23AEFD0089AABA /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CBE5ACE1E23AEFD0089AABA /* SceneKit.framework */; };
@@ -1857,6 +1836,27 @@
 		90555B2C1D0C26C40035E3E1 /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 90555B1F1D0C26C40035E3E1 /* 6.mp3 */; };
 		90555B2D1D0C26C40035E3E1 /* 7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 90555B201D0C26C40035E3E1 /* 7.mp3 */; };
 		90555B2E1D0C26C40035E3E1 /* 8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 90555B211D0C26C40035E3E1 /* 8.mp3 */; };
+		9058E1D721915AEA002ED3AD /* DialogBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9058E1AB21915AEA002ED3AD /* DialogBoxView.m */; };
+		9058E1D821915AEA002ED3AD /* MarqueeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9058E1AD21915AEA002ED3AD /* MarqueeLabel.m */; };
+		9058E1D921915AEA002ED3AD /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = 9058E1AE21915AEA002ED3AD /* Colours.m */; };
+		9058E1DA21915AEA002ED3AD /* TabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9058E1AF21915AEA002ED3AD /* TabView.m */; };
+		9058E1DB21915AEA002ED3AD /* RowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9058E1B021915AEA002ED3AD /* RowView.m */; };
+		9058E1DC21915AEA002ED3AD /* UIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9058E1B121915AEA002ED3AD /* UIManager.m */; };
+		9058E1DD21915AEA002ED3AD /* DynamicTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9058E1B221915AEA002ED3AD /* DynamicTVC.m */; };
+		9058E1DE21915AEA002ED3AD /* BadgeStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9058E1B621915AEA002ED3AD /* BadgeStyle.m */; };
+		9058E1DF21915AEA002ED3AD /* DCFineTuneSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9058E1B821915AEA002ED3AD /* DCFineTuneSlider.m */; };
+		9058E1E021915AEA002ED3AD /* CellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9058E1BD21915AEA002ED3AD /* CellView.m */; };
+		9058E1E121915AEA002ED3AD /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9058E1BE21915AEA002ED3AD /* ProgressView.m */; };
+		9058E1E221915AEA002ED3AD /* CustomBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9058E1C021915AEA002ED3AD /* CustomBadge.m */; };
+		9058E1E321915AEA002ED3AD /* DynamicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9058E1C521915AEA002ED3AD /* DynamicCell.m */; };
+		9058E1E421915AEA002ED3AD /* JCNotificationBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9058E1C721915AEA002ED3AD /* JCNotificationBannerViewController.m */; };
+		9058E1E521915AEA002ED3AD /* JCNotificationBannerWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9058E1C821915AEA002ED3AD /* JCNotificationBannerWindow.m */; };
+		9058E1E621915AEA002ED3AD /* JCNotificationBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 9058E1C921915AEA002ED3AD /* JCNotificationBanner.m */; };
+		9058E1E721915AEA002ED3AD /* JCNotificationBannerPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9058E1CA21915AEA002ED3AD /* JCNotificationBannerPresenter.m */; };
+		9058E1E821915AEA002ED3AD /* JCNotificationBannerPresenterSmokeStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9058E1CB21915AEA002ED3AD /* JCNotificationBannerPresenterSmokeStyle.m */; };
+		9058E1E921915AEA002ED3AD /* JCNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9058E1CC21915AEA002ED3AD /* JCNotificationCenter.m */; };
+		9058E1EA21915AEA002ED3AD /* JCNotificationBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9058E1D521915AEA002ED3AD /* JCNotificationBannerView.m */; };
+		9058E1EB21915AEA002ED3AD /* TemplateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9058E1D621915AEA002ED3AD /* TemplateView.m */; };
 		9059275C1AAB203B002DEB53 /* BookmarkList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9059275B1AAB203B002DEB53 /* BookmarkList.m */; };
 		9059413719B1600E00D5558D /* BuildingList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9059413619B1600E00D5558D /* BuildingList.m */; };
 		906629281A640B52000279C1 /* EventsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 906629271A640B52000279C1 /* EventsView.m */; };
@@ -3738,49 +3738,6 @@
 		6CA0DD0F1D5D8C5300B99964 /* icon_sale1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_sale1.png; sourceTree = "<group>"; };
 		6CA0DD101D5D8C5300B99964 /* icon_sale2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_sale2.png; sourceTree = "<group>"; };
 		6CA0DD111D5D8C5300B99964 /* icon_sale3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_sale3.png; sourceTree = "<group>"; };
-		6CA3DB2F1F003A9A000C36D5 /* BadgeStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadgeStyle.h; sourceTree = "<group>"; };
-		6CA3DB301F003A9A000C36D5 /* BadgeStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadgeStyle.m; sourceTree = "<group>"; };
-		6CA3DB311F003A9A000C36D5 /* CellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellView.h; sourceTree = "<group>"; };
-		6CA3DB321F003A9A000C36D5 /* CellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellView.m; sourceTree = "<group>"; };
-		6CA3DB331F003A9A000C36D5 /* Colours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colours.h; sourceTree = "<group>"; };
-		6CA3DB341F003A9A000C36D5 /* Colours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colours.m; sourceTree = "<group>"; };
-		6CA3DB351F003A9A000C36D5 /* CustomBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBadge.h; sourceTree = "<group>"; };
-		6CA3DB361F003A9A000C36D5 /* CustomBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBadge.m; sourceTree = "<group>"; };
-		6CA3DB371F003A9A000C36D5 /* DCFineTuneSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCFineTuneSlider.h; sourceTree = "<group>"; };
-		6CA3DB381F003A9A000C36D5 /* DCFineTuneSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCFineTuneSlider.m; sourceTree = "<group>"; };
-		6CA3DB391F003A9A000C36D5 /* DialogBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogBoxView.h; sourceTree = "<group>"; };
-		6CA3DB3A1F003A9A000C36D5 /* DialogBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialogBoxView.m; sourceTree = "<group>"; };
-		6CA3DB3B1F003A9A000C36D5 /* DynamicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicCell.h; sourceTree = "<group>"; };
-		6CA3DB3C1F003A9A000C36D5 /* DynamicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicCell.m; sourceTree = "<group>"; };
-		6CA3DB3D1F003A9A000C36D5 /* DynamicTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicTVC.h; sourceTree = "<group>"; };
-		6CA3DB3E1F003A9A000C36D5 /* DynamicTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicTVC.m; sourceTree = "<group>"; };
-		6CA3DB401F003A9A000C36D5 /* MarqueeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarqueeLabel.h; sourceTree = "<group>"; };
-		6CA3DB411F003A9A000C36D5 /* MarqueeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarqueeLabel.m; sourceTree = "<group>"; };
-		6CA3DB421F003A9A000C36D5 /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
-		6CA3DB431F003A9A000C36D5 /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
-		6CA3DB441F003A9A000C36D5 /* RowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowView.h; sourceTree = "<group>"; };
-		6CA3DB451F003A9A000C36D5 /* RowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowView.m; sourceTree = "<group>"; };
-		6CA3DB461F003A9A000C36D5 /* TabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabView.h; sourceTree = "<group>"; };
-		6CA3DB471F003A9A000C36D5 /* TabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabView.m; sourceTree = "<group>"; };
-		6CA3DB481F003A9A000C36D5 /* TemplateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateView.h; sourceTree = "<group>"; };
-		6CA3DB491F003A9A000C36D5 /* TemplateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemplateView.m; sourceTree = "<group>"; };
-		6CA3DB4B1F003A9A000C36D5 /* JCNotificationBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCNotificationBanner.h; sourceTree = "<group>"; };
-		6CA3DB4C1F003A9A000C36D5 /* JCNotificationBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCNotificationBanner.m; sourceTree = "<group>"; };
-		6CA3DB4D1F003A9A000C36D5 /* JCNotificationBannerPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCNotificationBannerPresenter.h; sourceTree = "<group>"; };
-		6CA3DB4E1F003A9A000C36D5 /* JCNotificationBannerPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCNotificationBannerPresenter.m; sourceTree = "<group>"; };
-		6CA3DB4F1F003A9A000C36D5 /* JCNotificationBannerPresenter_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCNotificationBannerPresenter_Private.h; sourceTree = "<group>"; };
-		6CA3DB501F003A9A000C36D5 /* JCNotificationBannerPresenterSmokeStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCNotificationBannerPresenterSmokeStyle.h; sourceTree = "<group>"; };
-		6CA3DB511F003A9A000C36D5 /* JCNotificationBannerPresenterSmokeStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCNotificationBannerPresenterSmokeStyle.m; sourceTree = "<group>"; };
-		6CA3DB521F003A9A000C36D5 /* JCNotificationBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCNotificationBannerView.h; sourceTree = "<group>"; };
-		6CA3DB531F003A9A000C36D5 /* JCNotificationBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCNotificationBannerView.m; sourceTree = "<group>"; };
-		6CA3DB541F003A9A000C36D5 /* JCNotificationBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCNotificationBannerViewController.h; sourceTree = "<group>"; };
-		6CA3DB551F003A9A000C36D5 /* JCNotificationBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCNotificationBannerViewController.m; sourceTree = "<group>"; };
-		6CA3DB561F003A9A000C36D5 /* JCNotificationBannerWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCNotificationBannerWindow.h; sourceTree = "<group>"; };
-		6CA3DB571F003A9A000C36D5 /* JCNotificationBannerWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCNotificationBannerWindow.m; sourceTree = "<group>"; };
-		6CA3DB581F003A9A000C36D5 /* JCNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCNotificationCenter.h; sourceTree = "<group>"; };
-		6CA3DB591F003A9A000C36D5 /* JCNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCNotificationCenter.m; sourceTree = "<group>"; };
-		6CA3DB5A1F003A9A000C36D5 /* UIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIManager.h; sourceTree = "<group>"; };
-		6CA3DB5B1F003A9A000C36D5 /* UIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIManager.m; sourceTree = "<group>"; };
 		6CA9B6911E237347009D32E0 /* loader_spin_reverse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loader_spin_reverse.png; sourceTree = "<group>"; };
 		6CA9B6921E237347009D32E0 /* loader_spin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loader_spin.png; sourceTree = "<group>"; };
 		6CBE5ACE1E23AEFD0089AABA /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
@@ -3842,7 +3799,6 @@
 		903D0E08186A766400D396A7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		903FD9241A36EBD000E893C7 /* TechList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TechList.h; sourceTree = "<group>"; };
 		903FD9251A36EBD000E893C7 /* TechList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TechList.m; sourceTree = "<group>"; };
-		9042A89E1E10E3A70015CB4B /* UIManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UIManager.framework; sourceTree = "<group>"; };
 		9042A8A41E10E58F0015CB4B /* Lambang_Malaysia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lambang_Malaysia.png; sourceTree = "<group>"; };
 		9042A8A51E10E58F0015CB4B /* MDeC_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MDeC_logo.jpg; sourceTree = "<group>"; };
 		904EBBBB1E1187A600C26796 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
@@ -3869,6 +3825,49 @@
 		90555B1F1D0C26C40035E3E1 /* 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 6.mp3; sourceTree = "<group>"; };
 		90555B201D0C26C40035E3E1 /* 7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 7.mp3; sourceTree = "<group>"; };
 		90555B211D0C26C40035E3E1 /* 8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 8.mp3; sourceTree = "<group>"; };
+		9058E1AB21915AEA002ED3AD /* DialogBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialogBoxView.m; sourceTree = "<group>"; };
+		9058E1AC21915AEA002ED3AD /* CellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellView.h; sourceTree = "<group>"; };
+		9058E1AD21915AEA002ED3AD /* MarqueeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarqueeLabel.m; sourceTree = "<group>"; };
+		9058E1AE21915AEA002ED3AD /* Colours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colours.m; sourceTree = "<group>"; };
+		9058E1AF21915AEA002ED3AD /* TabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabView.m; sourceTree = "<group>"; };
+		9058E1B021915AEA002ED3AD /* RowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RowView.m; sourceTree = "<group>"; };
+		9058E1B121915AEA002ED3AD /* UIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIManager.m; sourceTree = "<group>"; };
+		9058E1B221915AEA002ED3AD /* DynamicTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicTVC.m; sourceTree = "<group>"; };
+		9058E1B321915AEA002ED3AD /* CustomBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBadge.h; sourceTree = "<group>"; };
+		9058E1B421915AEA002ED3AD /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
+		9058E1B521915AEA002ED3AD /* TemplateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateView.h; sourceTree = "<group>"; };
+		9058E1B621915AEA002ED3AD /* BadgeStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadgeStyle.m; sourceTree = "<group>"; };
+		9058E1B721915AEA002ED3AD /* DynamicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicCell.h; sourceTree = "<group>"; };
+		9058E1B821915AEA002ED3AD /* DCFineTuneSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCFineTuneSlider.m; sourceTree = "<group>"; };
+		9058E1B921915AEA002ED3AD /* DialogBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogBoxView.h; sourceTree = "<group>"; };
+		9058E1BA21915AEA002ED3AD /* TabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabView.h; sourceTree = "<group>"; };
+		9058E1BB21915AEA002ED3AD /* Colours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colours.h; sourceTree = "<group>"; };
+		9058E1BC21915AEA002ED3AD /* MarqueeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarqueeLabel.h; sourceTree = "<group>"; };
+		9058E1BD21915AEA002ED3AD /* CellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellView.m; sourceTree = "<group>"; };
+		9058E1BE21915AEA002ED3AD /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
+		9058E1BF21915AEA002ED3AD /* DynamicTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicTVC.h; sourceTree = "<group>"; };
+		9058E1C021915AEA002ED3AD /* CustomBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBadge.m; sourceTree = "<group>"; };
+		9058E1C121915AEA002ED3AD /* UIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIManager.h; sourceTree = "<group>"; };
+		9058E1C221915AEA002ED3AD /* RowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RowView.h; sourceTree = "<group>"; };
+		9058E1C321915AEA002ED3AD /* DCFineTuneSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCFineTuneSlider.h; sourceTree = "<group>"; };
+		9058E1C421915AEA002ED3AD /* BadgeStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadgeStyle.h; sourceTree = "<group>"; };
+		9058E1C521915AEA002ED3AD /* DynamicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicCell.m; sourceTree = "<group>"; };
+		9058E1C721915AEA002ED3AD /* JCNotificationBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCNotificationBannerViewController.m; sourceTree = "<group>"; };
+		9058E1C821915AEA002ED3AD /* JCNotificationBannerWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCNotificationBannerWindow.m; sourceTree = "<group>"; };
+		9058E1C921915AEA002ED3AD /* JCNotificationBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCNotificationBanner.m; sourceTree = "<group>"; };
+		9058E1CA21915AEA002ED3AD /* JCNotificationBannerPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCNotificationBannerPresenter.m; sourceTree = "<group>"; };
+		9058E1CB21915AEA002ED3AD /* JCNotificationBannerPresenterSmokeStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCNotificationBannerPresenterSmokeStyle.m; sourceTree = "<group>"; };
+		9058E1CC21915AEA002ED3AD /* JCNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCNotificationCenter.m; sourceTree = "<group>"; };
+		9058E1CD21915AEA002ED3AD /* JCNotificationBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCNotificationBannerView.h; sourceTree = "<group>"; };
+		9058E1CE21915AEA002ED3AD /* JCNotificationBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCNotificationBanner.h; sourceTree = "<group>"; };
+		9058E1CF21915AEA002ED3AD /* JCNotificationBannerWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCNotificationBannerWindow.h; sourceTree = "<group>"; };
+		9058E1D021915AEA002ED3AD /* JCNotificationBannerPresenter_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCNotificationBannerPresenter_Private.h; sourceTree = "<group>"; };
+		9058E1D121915AEA002ED3AD /* JCNotificationBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCNotificationBannerViewController.h; sourceTree = "<group>"; };
+		9058E1D221915AEA002ED3AD /* JCNotificationBannerPresenterSmokeStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCNotificationBannerPresenterSmokeStyle.h; sourceTree = "<group>"; };
+		9058E1D321915AEA002ED3AD /* JCNotificationBannerPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCNotificationBannerPresenter.h; sourceTree = "<group>"; };
+		9058E1D421915AEA002ED3AD /* JCNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCNotificationCenter.h; sourceTree = "<group>"; };
+		9058E1D521915AEA002ED3AD /* JCNotificationBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCNotificationBannerView.m; sourceTree = "<group>"; };
+		9058E1D621915AEA002ED3AD /* TemplateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemplateView.m; sourceTree = "<group>"; };
 		9059275A1AAB203B002DEB53 /* BookmarkList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookmarkList.h; sourceTree = "<group>"; };
 		9059275B1AAB203B002DEB53 /* BookmarkList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookmarkList.m; sourceTree = "<group>"; };
 		9059413519B1600E00D5558D /* BuildingList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildingList.h; sourceTree = "<group>"; };
@@ -4105,7 +4104,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				6CA3DB2E1F003A9A000C36D5 /* UIManager */,
+				9058E1AA21915AEA002ED3AD /* UIManager */,
 				90F5D3D818C71D2F00F9BADD /* Library */,
 				90132B5418A0F5490017EAD8 /* Globals */,
 				90668F1E1AE53BB500DB0C75 /* Startup */,
@@ -6101,64 +6100,6 @@
 			path = Sales;
 			sourceTree = "<group>";
 		};
-		6CA3DB2E1F003A9A000C36D5 /* UIManager */ = {
-			isa = PBXGroup;
-			children = (
-				6CA3DB4A1F003A9A000C36D5 /* ToasterView */,
-				6CA3DB2F1F003A9A000C36D5 /* BadgeStyle.h */,
-				6CA3DB301F003A9A000C36D5 /* BadgeStyle.m */,
-				6CA3DB311F003A9A000C36D5 /* CellView.h */,
-				6CA3DB321F003A9A000C36D5 /* CellView.m */,
-				6CA3DB331F003A9A000C36D5 /* Colours.h */,
-				6CA3DB341F003A9A000C36D5 /* Colours.m */,
-				6CA3DB351F003A9A000C36D5 /* CustomBadge.h */,
-				6CA3DB361F003A9A000C36D5 /* CustomBadge.m */,
-				6CA3DB371F003A9A000C36D5 /* DCFineTuneSlider.h */,
-				6CA3DB381F003A9A000C36D5 /* DCFineTuneSlider.m */,
-				6CA3DB391F003A9A000C36D5 /* DialogBoxView.h */,
-				6CA3DB3A1F003A9A000C36D5 /* DialogBoxView.m */,
-				6CA3DB3B1F003A9A000C36D5 /* DynamicCell.h */,
-				6CA3DB3C1F003A9A000C36D5 /* DynamicCell.m */,
-				6CA3DB3D1F003A9A000C36D5 /* DynamicTVC.h */,
-				6CA3DB3E1F003A9A000C36D5 /* DynamicTVC.m */,
-				6CA3DB401F003A9A000C36D5 /* MarqueeLabel.h */,
-				6CA3DB411F003A9A000C36D5 /* MarqueeLabel.m */,
-				6CA3DB421F003A9A000C36D5 /* ProgressView.h */,
-				6CA3DB431F003A9A000C36D5 /* ProgressView.m */,
-				6CA3DB441F003A9A000C36D5 /* RowView.h */,
-				6CA3DB451F003A9A000C36D5 /* RowView.m */,
-				6CA3DB461F003A9A000C36D5 /* TabView.h */,
-				6CA3DB471F003A9A000C36D5 /* TabView.m */,
-				6CA3DB481F003A9A000C36D5 /* TemplateView.h */,
-				6CA3DB491F003A9A000C36D5 /* TemplateView.m */,
-				6CA3DB5A1F003A9A000C36D5 /* UIManager.h */,
-				6CA3DB5B1F003A9A000C36D5 /* UIManager.m */,
-			);
-			path = UIManager;
-			sourceTree = "<group>";
-		};
-		6CA3DB4A1F003A9A000C36D5 /* ToasterView */ = {
-			isa = PBXGroup;
-			children = (
-				6CA3DB4B1F003A9A000C36D5 /* JCNotificationBanner.h */,
-				6CA3DB4C1F003A9A000C36D5 /* JCNotificationBanner.m */,
-				6CA3DB4D1F003A9A000C36D5 /* JCNotificationBannerPresenter.h */,
-				6CA3DB4E1F003A9A000C36D5 /* JCNotificationBannerPresenter.m */,
-				6CA3DB4F1F003A9A000C36D5 /* JCNotificationBannerPresenter_Private.h */,
-				6CA3DB501F003A9A000C36D5 /* JCNotificationBannerPresenterSmokeStyle.h */,
-				6CA3DB511F003A9A000C36D5 /* JCNotificationBannerPresenterSmokeStyle.m */,
-				6CA3DB521F003A9A000C36D5 /* JCNotificationBannerView.h */,
-				6CA3DB531F003A9A000C36D5 /* JCNotificationBannerView.m */,
-				6CA3DB541F003A9A000C36D5 /* JCNotificationBannerViewController.h */,
-				6CA3DB551F003A9A000C36D5 /* JCNotificationBannerViewController.m */,
-				6CA3DB561F003A9A000C36D5 /* JCNotificationBannerWindow.h */,
-				6CA3DB571F003A9A000C36D5 /* JCNotificationBannerWindow.m */,
-				6CA3DB581F003A9A000C36D5 /* JCNotificationCenter.h */,
-				6CA3DB591F003A9A000C36D5 /* JCNotificationCenter.m */,
-			);
-			path = ToasterView;
-			sourceTree = "<group>";
-		};
 		9008CAC01A44835600EE3F1E /* SendTroops */ = {
 			isa = PBXGroup;
 			children = (
@@ -6247,7 +6188,6 @@
 			isa = PBXGroup;
 			children = (
 				6CBE5ACE1E23AEFD0089AABA /* SceneKit.framework */,
-				9042A89E1E10E3A70015CB4B /* UIManager.framework */,
 				90D95AA11AC7B36C00AAD359 /* GameKit.framework */,
 				90BC18531A9CDB6C0022A165 /* CoreText.framework */,
 				90BDDC8D1A70D9A30050FF5E /* CoreLocation.framework */,
@@ -6308,6 +6248,64 @@
 				9052214E194143340016AAEE /* QuestView.m */,
 			);
 			name = Quest;
+			sourceTree = "<group>";
+		};
+		9058E1AA21915AEA002ED3AD /* UIManager */ = {
+			isa = PBXGroup;
+			children = (
+				9058E1AB21915AEA002ED3AD /* DialogBoxView.m */,
+				9058E1AC21915AEA002ED3AD /* CellView.h */,
+				9058E1AD21915AEA002ED3AD /* MarqueeLabel.m */,
+				9058E1AE21915AEA002ED3AD /* Colours.m */,
+				9058E1AF21915AEA002ED3AD /* TabView.m */,
+				9058E1B021915AEA002ED3AD /* RowView.m */,
+				9058E1B121915AEA002ED3AD /* UIManager.m */,
+				9058E1B221915AEA002ED3AD /* DynamicTVC.m */,
+				9058E1B321915AEA002ED3AD /* CustomBadge.h */,
+				9058E1B421915AEA002ED3AD /* ProgressView.h */,
+				9058E1B521915AEA002ED3AD /* TemplateView.h */,
+				9058E1B621915AEA002ED3AD /* BadgeStyle.m */,
+				9058E1B721915AEA002ED3AD /* DynamicCell.h */,
+				9058E1B821915AEA002ED3AD /* DCFineTuneSlider.m */,
+				9058E1B921915AEA002ED3AD /* DialogBoxView.h */,
+				9058E1BA21915AEA002ED3AD /* TabView.h */,
+				9058E1BB21915AEA002ED3AD /* Colours.h */,
+				9058E1BC21915AEA002ED3AD /* MarqueeLabel.h */,
+				9058E1BD21915AEA002ED3AD /* CellView.m */,
+				9058E1BE21915AEA002ED3AD /* ProgressView.m */,
+				9058E1BF21915AEA002ED3AD /* DynamicTVC.h */,
+				9058E1C021915AEA002ED3AD /* CustomBadge.m */,
+				9058E1C121915AEA002ED3AD /* UIManager.h */,
+				9058E1C221915AEA002ED3AD /* RowView.h */,
+				9058E1C321915AEA002ED3AD /* DCFineTuneSlider.h */,
+				9058E1C421915AEA002ED3AD /* BadgeStyle.h */,
+				9058E1C521915AEA002ED3AD /* DynamicCell.m */,
+				9058E1C621915AEA002ED3AD /* ToasterView */,
+				9058E1D621915AEA002ED3AD /* TemplateView.m */,
+			);
+			path = UIManager;
+			sourceTree = "<group>";
+		};
+		9058E1C621915AEA002ED3AD /* ToasterView */ = {
+			isa = PBXGroup;
+			children = (
+				9058E1C721915AEA002ED3AD /* JCNotificationBannerViewController.m */,
+				9058E1C821915AEA002ED3AD /* JCNotificationBannerWindow.m */,
+				9058E1C921915AEA002ED3AD /* JCNotificationBanner.m */,
+				9058E1CA21915AEA002ED3AD /* JCNotificationBannerPresenter.m */,
+				9058E1CB21915AEA002ED3AD /* JCNotificationBannerPresenterSmokeStyle.m */,
+				9058E1CC21915AEA002ED3AD /* JCNotificationCenter.m */,
+				9058E1CD21915AEA002ED3AD /* JCNotificationBannerView.h */,
+				9058E1CE21915AEA002ED3AD /* JCNotificationBanner.h */,
+				9058E1CF21915AEA002ED3AD /* JCNotificationBannerWindow.h */,
+				9058E1D021915AEA002ED3AD /* JCNotificationBannerPresenter_Private.h */,
+				9058E1D121915AEA002ED3AD /* JCNotificationBannerViewController.h */,
+				9058E1D221915AEA002ED3AD /* JCNotificationBannerPresenterSmokeStyle.h */,
+				9058E1D321915AEA002ED3AD /* JCNotificationBannerPresenter.h */,
+				9058E1D421915AEA002ED3AD /* JCNotificationCenter.h */,
+				9058E1D521915AEA002ED3AD /* JCNotificationBannerView.m */,
+			);
+			path = ToasterView;
 			sourceTree = "<group>";
 		};
 		905927591AAB202C002DEB53 /* Bookmark */ = {
@@ -6867,7 +6865,6 @@
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
 				B0BBA313989C26B61556CC37 /* [CP] Embed Pods Frameworks */,
-				978B21AFF0C7A5655CF08D70 /* [CP] Copy Pods Resources */,
 				6CFBBFEA1E361A2D00ED43CD /* ShellScript */,
 			);
 			buildRules = (
@@ -8835,33 +8832,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Fabric/run\" 1762405f7e2aef077bb3dd2f1bd55609e3857e41 429427d5a96abc63a547df1bf0ea6046a3bd33c24fdea32e8caacfc95b3d399e";
-		};
-		978B21AFF0C7A5655CF08D70 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Kingdom/Pods-Kingdom-resources.sh",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.0.1/HsUIResources.bundle",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.0.1/HsLocalization.bundle",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.0.1/HSThemes/HelpshiftConfig.plist",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.0.1/HSThemes/HelpshiftConfigDark.plist",
-				"${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.0.1/HSThemes/HelpshiftConfigHighContrast.plist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HsUIResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HsLocalization.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HelpshiftConfig.plist",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HelpshiftConfigDark.plist",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HelpshiftConfigHighContrast.plist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kingdom/Pods-Kingdom-resources.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "
+";
 		};
 		B0BBA313989C26B61556CC37 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -8896,10 +8868,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CA3DB691F003A9A000C36D5 /* TemplateView.m in Sources */,
 				902D6B0A1BC591B900FDBFF5 /* ResourcesView.m in Sources */,
 				90C0E6351A7380DA00F0C151 /* MailView.m in Sources */,
 				902D6B061BC591A800FDBFF5 /* HeroChart.m in Sources */,
+				9058E1E121915AEA002ED3AD /* ProgressView.m in Sources */,
+				9058E1E221915AEA002ED3AD /* CustomBadge.m in Sources */,
 				902D6B0D1BC591C700FDBFF5 /* CraftView.m in Sources */,
 				90AF55951A5941FC00385A56 /* RankingAlliance.m in Sources */,
 				901451051AA9C8A40082F0D3 /* XyBox.m in Sources */,
@@ -8908,7 +8881,6 @@
 				903B212319311F2E007866ED /* BoostChart.m in Sources */,
 				90F5D46318C71D2F00F9BADD /* NSString+HMAC.m in Sources */,
 				901E6BFF194918F300B48195 /* AllianceMembers.m in Sources */,
-				6CA3DB6B1F003A9A000C36D5 /* JCNotificationBannerPresenter.m in Sources */,
 				904EBBC91E1187A600C26796 /* PostText.m in Sources */,
 				9081C9700FF4B90100E97D01 /* MainView.m in Sources */,
 				9080CBE3193CF2F9000F8BF8 /* CastleView.m in Sources */,
@@ -8921,97 +8893,97 @@
 				908E8FC21723C5F60006A25C /* ReportView.m in Sources */,
 				902D6B071BC591A800FDBFF5 /* HeroSkills.m in Sources */,
 				90C0E6281A737E2A00F0C151 /* SendHeader.m in Sources */,
+				9058E1DD21915AEA002ED3AD /* DynamicTVC.m in Sources */,
 				90005F751927DEEE008D13D7 /* ProfileHeader.m in Sources */,
 				9012CA671728F82600E82890 /* BaseList.m in Sources */,
 				90BD942217351B010058870A /* ProfileView.m in Sources */,
 				9029ED791A39503200B465FF /* TechView.m in Sources */,
 				900316431A5A630200FE4B20 /* AllianceView.m in Sources */,
+				9058E1E821915AEA002ED3AD /* JCNotificationBannerPresenterSmokeStyle.m in Sources */,
+				9058E1DE21915AEA002ED3AD /* BadgeStyle.m in Sources */,
 				90F1C5FE1C1DBE730036CCB9 /* KingdomAppDelegate.m in Sources */,
 				9072D297197D652800F5DA91 /* TavernView.m in Sources */,
 				901E6BFE194918F300B48195 /* AllianceEvents.m in Sources */,
 				90F1C60D1C1DBEE10036CCB9 /* TiledScrollView.swift in Sources */,
 				90CF717718CEEDA2006BEBD4 /* ResearchView.m in Sources */,
+				9058E1DA21915AEA002ED3AD /* TabView.m in Sources */,
 				90CA474B18CCE47400CA5DA1 /* BaseView.m in Sources */,
 				90D834401A1AE80800065FE6 /* TroopView.m in Sources */,
 				90CF717B18CEEDCD006BEBD4 /* TrainView.m in Sources */,
 				90132B8A18A0F5490017EAD8 /* Globals.m in Sources */,
 				90F5D46618C71D2F00F9BADD /* UIView+Glow.m in Sources */,
+				9058E1E521915AEA002ED3AD /* JCNotificationBannerWindow.m in Sources */,
 				901E6BFA194918F300B48195 /* AllianceApplicants.m in Sources */,
-				6CA3DB681F003A9A000C36D5 /* TabView.m in Sources */,
 				90F1C6161C1DBF4A0036CCB9 /* RankingView.m in Sources */,
 				904EBBCA1E1187A600C26796 /* SplashView.m in Sources */,
-				6CA3DB651F003A9A000C36D5 /* MarqueeLabel.m in Sources */,
 				904F93481AAD90F200612CC5 /* DialogTerrain.m in Sources */,
 				9059275C1AAB203B002DEB53 /* BookmarkList.m in Sources */,
+				9058E1E421915AEA002ED3AD /* JCNotificationBannerViewController.m in Sources */,
 				90BBE38517476301007A41B1 /* BaseDetail.m in Sources */,
 				9080CBE9193CF30C000F8BF8 /* HospitalView.m in Sources */,
+				9058E1D921915AEA002ED3AD /* Colours.m in Sources */,
 				90BA77E718E1272200704C31 /* Resource1Detail.m in Sources */,
 				90CF717318CEED6E006BEBD4 /* MarchesView.m in Sources */,
 				902B4AC519092143002BE28B /* HeroView.m in Sources */,
 				908E05D718FB9E740025F06F /* BuildHeader.m in Sources */,
-				6CA3DB6E1F003A9A000C36D5 /* JCNotificationBannerViewController.m in Sources */,
-				6CA3DB611F003A9A000C36D5 /* DialogBoxView.m in Sources */,
 				908D51DE1D06B9B00063CFB3 /* MissionView.m in Sources */,
 				90C0E6341A7380DA00F0C151 /* MailReply.m in Sources */,
-				6CA3DB6C1F003A9A000C36D5 /* JCNotificationBannerPresenterSmokeStyle.m in Sources */,
 				9080CBEF193CF322000F8BF8 /* MarketView.m in Sources */,
+				9058E1E721915AEA002ED3AD /* JCNotificationBannerPresenter.m in Sources */,
 				901E6BFC194918F300B48195 /* AllianceDetail.m in Sources */,
 				9083D0BE1A5FCBEB0024E8D7 /* AllianceStats.m in Sources */,
+				9058E1EB21915AEA002ED3AD /* TemplateView.m in Sources */,
 				90AABE241ACFD9FB00C6F4E4 /* UIImage+Sprite.m in Sources */,
 				9081DBDA18F1845E008C26C2 /* BuildView.m in Sources */,
 				904F93441AAD853B00612CC5 /* BookmarkCreate.m in Sources */,
+				9058E1E621915AEA002ED3AD /* JCNotificationBanner.m in Sources */,
 				90C0E6321A7380DA00F0C151 /* MailCompose.m in Sources */,
+				9058E1DC21915AEA002ED3AD /* UIManager.m in Sources */,
 				9059413719B1600E00D5558D /* BuildingList.m in Sources */,
 				90E9FC561750A1D500DDD9EB /* ReportDetail.m in Sources */,
 				904EBBCB1E1187A600C26796 /* SponsorsView.m in Sources */,
 				902D6B011BC5919200FDBFF5 /* BuildList.m in Sources */,
+				9058E1EA21915AEA002ED3AD /* JCNotificationBannerView.m in Sources */,
+				9058E1E321915AEA002ED3AD /* DynamicCell.m in Sources */,
 				90F1C6191C1DBF550036CCB9 /* SearchView.m in Sources */,
 				9080CBEC193CF319000F8BF8 /* StorehouseView.m in Sources */,
-				6CA3DB711F003A9A000C36D5 /* UIManager.m in Sources */,
+				9058E1DF21915AEA002ED3AD /* DCFineTuneSlider.m in Sources */,
 				907ADFC917AA9AFD0027D1DC /* MoreView.m in Sources */,
-				6CA3DB671F003A9A000C36D5 /* RowView.m in Sources */,
 				902AE1841AC172A300DA9B6E /* DialogVillage.m in Sources */,
 				9066292C1A640B86000279C1 /* BuyView.m in Sources */,
 				6C82BF101E42ECD900EA00E9 /* TimerObject.m in Sources */,
 				906856B417AAA6AD004EA744 /* MapView.m in Sources */,
-				6CA3DB601F003A9A000C36D5 /* DCFineTuneSlider.m in Sources */,
 				903FD9261A36EBD000E893C7 /* TechList.m in Sources */,
-				6CA3DB6D1F003A9A000C36D5 /* JCNotificationBannerView.m in Sources */,
 				90E0A638197BC0460082CA1E /* SalesView.m in Sources */,
 				90F34A581A5AA4B8007FF3A7 /* AllianceProfile.m in Sources */,
 				90C0E6331A7380DA00F0C151 /* MailDetail.m in Sources */,
 				9080CBF2193CF32D000F8BF8 /* EmbassyView.m in Sources */,
 				906629281A640B52000279C1 /* EventsView.m in Sources */,
 				90F1C6101C1DBF2B0036CCB9 /* ChatView.m in Sources */,
-				6CA3DB621F003A9A000C36D5 /* DynamicCell.m in Sources */,
-				6CA3DB661F003A9A000C36D5 /* ProgressView.m in Sources */,
-				6CA3DB6A1F003A9A000C36D5 /* JCNotificationBanner.m in Sources */,
-				6CA3DB5F1F003A9A000C36D5 /* CustomBadge.m in Sources */,
 				908CC3911AB2D3F5007D8D38 /* DialogCity.m in Sources */,
-				6CA3DB5D1F003A9A000C36D5 /* CellView.m in Sources */,
 				9030B56D1906A46900BC9289 /* BuildingChart.m in Sources */,
-				6CA3DB701F003A9A000C36D5 /* JCNotificationCenter.m in Sources */,
 				90F095811ACF9C5400E232F6 /* MarchingLine.m in Sources */,
 				90F1C6131C1DBF3A0036CCB9 /* OptionsView.m in Sources */,
+				9058E1E921915AEA002ED3AD /* JCNotificationCenter.m in Sources */,
 				901E6BFB194918F300B48195 /* AllianceCreate.m in Sources */,
 				90DBE4EF1C43C650009B02C1 /* TTTOrdinalNumberFormatter.m in Sources */,
 				90AF55961A5941FC00385A56 /* SearchAlliance.m in Sources */,
 				90F1C6051C1DBEAA0036CCB9 /* LoginBox.m in Sources */,
 				9052214F194143340016AAEE /* QuestView.m in Sources */,
+				9058E1DB21915AEA002ED3AD /* RowView.m in Sources */,
 				90A114991A32C72E00F36126 /* MarketSend.m in Sources */,
 				906684201B062B940018E387 /* TutorialView.m in Sources */,
 				6C82BF191E43309900EA00E9 /* TimerHolder.m in Sources */,
-				6CA3DB5E1F003A9A000C36D5 /* Colours.m in Sources */,
+				9058E1D821915AEA002ED3AD /* MarqueeLabel.m in Sources */,
 				9080CBF5193CF336000F8BF8 /* WatchtowerView.m in Sources */,
+				9058E1E021915AEA002ED3AD /* CellView.m in Sources */,
 				904EBBC81E1187A600C26796 /* PictureList.m in Sources */,
 				90CEF1B018C7A3ED00DA382C /* MainCell.m in Sources */,
 				6C82BF1A1E43309900EA00E9 /* TimerView.m in Sources */,
 				90F1C6061C1DBEAA0036CCB9 /* LoginView.m in Sources */,
-				6CA3DB631F003A9A000C36D5 /* DynamicTVC.m in Sources */,
 				901E6C00194918F300B48195 /* AllianceObject.m in Sources */,
-				6CA3DB6F1F003A9A000C36D5 /* JCNotificationBannerWindow.m in Sources */,
+				9058E1D721915AEA002ED3AD /* DialogBoxView.m in Sources */,
 				90C2E0ED17DF77550010F3B4 /* TileView.m in Sources */,
-				6CA3DB5C1F003A9A000C36D5 /* BadgeStyle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

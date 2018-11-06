@@ -1,8 +1,0 @@
-"Test suite name","Tutorial"
-"Created on","2015-05-25 15:23:03 UTC"
-"Updated on","2015-10-02 12:58:53 UTC"
-
-
-"Id","Test case number","Title","Description","Test steps","Expected result","Created at","Updated at"
-"768399","TC300","First Time Play","Does the tutorial launch upon playing for the first time?","1. Create a new Apple ID that has never been used with Kingdoms.
-2. Launch Kingdoms","The tutorial should start straight away.","2015-06-04 08:05:28 UTC","2015-10-02 12:58:53 UTC"

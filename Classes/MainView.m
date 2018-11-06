@@ -1323,7 +1323,7 @@ MFMailComposeViewControllerDelegate, UIScrollViewDelegate, SSZipArchiveDelegate,
     }
     else if ([[notification name] isEqualToString:@"ShowFeedback"])
     {
-        [HelpshiftSupport showConversation:self withOptions:nil];
+        //[HelpshiftSupport showConversation:self withOptions:nil];
     }
     else if ([[notification name] isEqualToString:@"ShowInvite"])
     {
@@ -1440,7 +1440,7 @@ MFMailComposeViewControllerDelegate, UIScrollViewDelegate, SSZipArchiveDelegate,
     }
     else if ([[notification name] isEqualToString:@"ShowHelp"])
     {
-        [HelpshiftSupport showFAQs:self withOptions:nil];
+        //[HelpshiftSupport showFAQs:self withOptions:nil];
         
         //[self showHelp];
     }

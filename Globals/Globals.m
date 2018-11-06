@@ -30,9 +30,6 @@
 #import "TimerObject.h"
 #import "TimerView.h"
 #import "TimerHolder.h"
-#import <Fabric/Fabric.h>
-#import <Crashlytics/Crashlytics.h>
-#import <GameAnalytics/GameAnalytics.h>
 
 @interface Globals () <SRConnectionDelegate, AVAudioPlayerDelegate>
 
@@ -1345,15 +1342,15 @@ static NSOperationQueue *connectionQueue;
     if (![user_uid isEqualToString:@""])
     {
         //Helpshift id
-        [HelpshiftSupport setUserIdentifier:user_uid];
+        //[HelpshiftSupport setUserIdentifier:user_uid];
         
         //Crashlytics id
-        [CrashlyticsKit setUserIdentifier:user_uid];
-        [CrashlyticsKit setUserEmail:[self get_signin_name]];
-        [CrashlyticsKit setUserName:[self get_signin_name]];
+        //[CrashlyticsKit setUserIdentifier:user_uid];
+        //[CrashlyticsKit setUserEmail:[self get_signin_name]];
+        //[CrashlyticsKit setUserName:[self get_signin_name]];
         
         //GA id
-        [GameAnalytics configureUserId:user_uid];
+        //[GameAnalytics configureUserId:user_uid];
     }
 }
 
@@ -1725,59 +1722,54 @@ static NSOperationQueue *connectionQueue;
 
 - (void)trackEvent:(NSString *)category action:(NSString *)action label:(NSString *)label
 {
-    NSString *ga_event = [NSString stringWithFormat:@"%@:%@:%@", category, action, label];
-    [GameAnalytics addDesignEventWithEventId:ga_event];
+    //NSString *ga_event = [NSString stringWithFormat:@"%@:%@:%@", category, action, label];
+    //[GameAnalytics addDesignEventWithEventId:ga_event];
     
-    [Answers logCustomEventWithName:category customAttributes:@{@"Action":action, @"Label":label}];
+    //[Answers logCustomEventWithName:category customAttributes:@{@"Action":action, @"Label":label}];
 }
 
 - (void)trackEvent:(NSString *)category action:(NSString *)action
 {
-    NSString *ga_event = [NSString stringWithFormat:@"%@:%@", category, action];
-    [GameAnalytics addDesignEventWithEventId:ga_event];
+    //NSString *ga_event = [NSString stringWithFormat:@"%@:%@", category, action];
+    //[GameAnalytics addDesignEventWithEventId:ga_event];
     
-    [Answers logCustomEventWithName:category customAttributes:@{@"Action":action}];
+    //[Answers logCustomEventWithName:category customAttributes:@{@"Action":action}];
 }
 
 - (void)trackEvent:(NSString *)category
 {
-    NSString *ga_event = [NSString stringWithFormat:@"%@", category];
-    [GameAnalytics addDesignEventWithEventId:ga_event];
+    //NSString *ga_event = [NSString stringWithFormat:@"%@", category];
+    //[GameAnalytics addDesignEventWithEventId:ga_event];
     
-    [Answers logCustomEventWithName:category customAttributes:@{}];
+    //[Answers logCustomEventWithName:category customAttributes:@{}];
 }
     
 - (void)trackInvite:(NSString *)method
 {
-    NSString *ga_event = [NSString stringWithFormat:@"Invite:%@", method];
-    [GameAnalytics addDesignEventWithEventId:ga_event];
+    //NSString *ga_event = [NSString stringWithFormat:@"Invite:%@", method];
+    //[GameAnalytics addDesignEventWithEventId:ga_event];
     
-    [Answers logInviteWithMethod:method
-                customAttributes:@{}];
+    //[Answers logInviteWithMethod:method customAttributes:@{}];
 }
     
 - (void)trackScreenOpen:(NSString *)title
 {
-    [GameAnalytics addProgressionEventWithProgressionStatus:GAProgressionStatusStart progression01:title progression02:nil progression03:nil];
+    //[GameAnalytics addProgressionEventWithProgressionStatus:GAProgressionStatusStart progression01:title progression02:nil progression03:nil];
         
-    [Answers logLevelStart:title
-          customAttributes:@{}];
+    //[Answers logLevelStart:title customAttributes:@{}];
 }
     
 - (void)trackScreenClose:(NSString *)title
 {
-    [GameAnalytics addProgressionEventWithProgressionStatus:GAProgressionStatusComplete progression01:title progression02:nil progression03:nil score:0];
+    //[GameAnalytics addProgressionEventWithProgressionStatus:GAProgressionStatusComplete progression01:title progression02:nil progression03:nil score:0];
 
-    [Answers logLevelEnd:title
-                   score:nil
-                 success:@YES
-        customAttributes:@{}];
+    //[Answers logLevelEnd:title score:nil success:@YES customAttributes:@{}];
 }
     
 - (void)trackPurchase:(NSNumber *)revenue currencyCode:(NSString *)currencyCode localizedTitle:(NSString *)localizedTitle sku:(NSString *)sku
 {
     NSDecimalNumber *decimalRevenue = [NSDecimalNumber decimalNumberWithDecimal:[revenue decimalValue]];
-    
+    /*
     [Answers logPurchaseWithPrice:decimalRevenue
                          currency:currencyCode
                           success:@YES
@@ -1785,17 +1777,17 @@ static NSOperationQueue *connectionQueue;
                          itemType:@"InApp"
                            itemId:sku
                  customAttributes:@{}];
-    
+    */
     NSInteger priceInCents = [[decimalRevenue decimalNumberByMultiplyingBy:[NSDecimalNumber decimalNumberWithString:@"100"]] intValue];
-    [GameAnalytics addBusinessEventWithCurrency:currencyCode amount:priceInCents itemType:localizedTitle itemId:sku cartType:@"InApp" autoFetchReceipt:YES];
+    //[GameAnalytics addBusinessEventWithCurrency:currencyCode amount:priceInCents itemType:localizedTitle itemId:sku cartType:@"InApp" autoFetchReceipt:YES];
     
     NSNumber *gems_purchased = @([[self gettPurchasedGems] intValue]);
-    [GameAnalytics addResourceEventWithFlowType:GAResourceFlowTypeSource currency:@"Gems" amount:gems_purchased itemType:localizedTitle itemId:sku];
+    //[GameAnalytics addResourceEventWithFlowType:GAResourceFlowTypeSource currency:@"Gems" amount:gems_purchased itemType:localizedTitle itemId:sku];
 }
 
 - (void)trackSpend:(NSNumber *)cost itemName:(NSString *)itemName itemId:(NSString *)itemId
 {
-    [GameAnalytics addResourceEventWithFlowType:GAResourceFlowTypeSink currency:@"Gems" amount:cost itemType:itemName itemId:itemId];
+    //[GameAnalytics addResourceEventWithFlowType:GAResourceFlowTypeSink currency:@"Gems" amount:cost itemType:itemName itemId:itemId];
 }
 
 - (void)showDialogError

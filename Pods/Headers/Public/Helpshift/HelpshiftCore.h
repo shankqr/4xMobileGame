@@ -1,1 +1,0 @@
-../../../Helpshift/helpshift-sdk-ios-v7.0.1/HelpshiftCore.h
